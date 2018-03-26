@@ -2,514 +2,23 @@
 	"ui5cnLearningPath": [
 
 		{
-			"Title": "SAP® UI5 Consultant",
-			"SubTitle":"Becoming UI5 Consultant From Basics (ABAP Developer Mostly)",
-			"pathonGoing":[],
-			"pathBasic": [
-{
-	"snum": 1,
-	"name": "SAP® UI5 and Fiori® Getting Started",
-	"Desc": "Learn SAP®UI5, Fiori® and new UX and Get certified from UI5CNSAP world is moving very fast and in completely new directions and if you do not keep up with them then you will be left out. This course will give you real life experience, knowledge and skills in a most interesting and simple way .This is the introductory part of a three series course to master in SAP UX . ",
-	"Level": "Beginer",
-	"link":"https://www.ui5cn.com/courses/sap-sapui5-fiori-and-new-ux-getting-started",
-	"timeofCourseinHrs": 3,
-	"timetoComplete": 5,
-	"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-	"User Rating": 4.1,
-	"UI5CN Internal Critic Rating": 2.5,
-	"Last Updated": "20/05/2016",
-	"Next Update Scheduled": "20/03/2018",
-	"prereuisite": [
-		"HTML5",
-		"Basic Web Programming",
-		"Basic Idea About SAP®"
-	],
-	"Topics Covered": [
-		"UX of UI5",
-		"Basic App Development"
-	],
-	"Instructor": [
-		{
-			"name":"Ajay Nayak",
-			"Image":"https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
-		}
-	]
-}, {
-	"snum": 2,
-	"name": "Learn SAPUI5 Professional Development",
-	"Desc": "SAPUI5 / Open UI5 is the top trend in the SAP Technical marketplaceAlmost all the major projects now require this skill-set.\nThe development with SAPUI5 / Open UI5 involves new and cutting edge technologies, responsible for bringing a lot of aspects related to web app development, which makes it difficult to learn.\nThis course is the final result of months of preparation and planning to compile all the details in making the learning process easy, complete and fast./nWhat are benefits of this course :\n\n-If you want to learn SAP UI5 /Open UI5 then this course will be for you.It comes with rich content that takes you from writing a simple 'Hello World' app to building your own responsive SAP UI5 complex app.\n-The majority of the content is hands-on, which involves a lot of challenges and exercises and makes the course interesting and engaging.\n-The course covers not only individual topics but also describes real world scenarios where the concepts are used.\n-The course also shares SAP UI5 best practices of implementing a concept to a real SAP global project.\n-The course also shares a bunch of code snippets and examples in a cloud based IDE, where students can have 24*7 access and which is going to be crucial during the development phase of the project. The students will have the best SAP UI5 tutorial examples they can find.\n-The course examples were carefully selected to make the course fun, interesting and engaging to learn.\n-The development scenarios include simulating common mistakes that UI5 developers frequently make, so they can learn exactly how to fix fast.\n-The course also contains a UI5 Capstone Project to put all the learning into practice.The project is carefully crafted to make students understand real world scenarios and the roles they would have to perform in the team.\n-The course covers all the aspects of SAP UI5 /Open UI5 development, may it be wire-framing, design and analysis, development or styling and theming.\n-The course shares information about lots of tools and plugins, which will boost the developers' productivity and efficiency.",
-	"Level": "Intermediate",
-	"link":"https://www.ui5cn.com/courses/learn-sapui5",
-	"timeofCourseinHrs": 7,
-	"timetoComplete": 21,
-	"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3561476281722.original.jpg",
-	"User Rating": 5,
-	"UI5CN Internal Critic Rating": 4,
-	"Last Updated": "20/07/2016",
-	"Next Update Scheduled": "Not Scheduled Yet",
-	"prereuisite": [
-		"HTML5",
-		"Basic Web Programming",
-		"Basic Idea About SAP®",
-		"SAP® UI5 and Fiori® Getting Started",
-		"Javascript Basics"
-	],
-	"Topics Covered": [
-		"UI5 Commponenects in details",
-		"Control Flow of Apps",
-		"Databing in UI5",
-		"Events in UI5",
-		"Aggregration and Factory Functions",
-		"Intgration With UI5",
-		"Lifecycle Hooks in UI5",
-		"Additional concepts like i18n",
-		"Theming and CSS Change in App",
-		"And Many More..."
-
-	],
-	"Instructor": [
-		{
-			"name":"Ajay Nayak",
-			"Image":"https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
-		}
-	]
-}, {
-	"snum": 3,
-	"name": "SAP® Netweaver Gateway for SAPUI5, Fiori and HANA®",
-	"Desc": "SAP® world is moving very fast and in completely new directions and if you do not keep up with them then you will be left out.This course will give you a real life experience, knowledge and skills in a very interesting and a simple way.It is packed up with information, knowledge, hands-on and real life project experience learning.At the end of my course, you will be able to:\n-Understand what is behind the buzzword of API and how it is implemented in an Enterprise.\n-After taking this course you can work as an API developer in an SAP Netweaver Gateway project.\n-Learn to implement API management in SAP Netweaver Gateway and in general./\n-Run your first API end-to-end scenario using SAP Netweaver Gateway and SAPUI5.",
-	"Level": "Intermediate",
-	"link":"https://www.ui5cn.com/courses/sap-netweaver-gateway-for-sapui5-sap-fiori-and-sap-hana",
-	"timeofCourseinHrs": 5,
-	"timetoComplete": 14,
-	"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/1671476281760.original.jpg",
-	"User Rating": 4,
-	"UI5CN Internal Critic Rating": 4,
-	"Last Updated": "20/10/2016",
-	"Next Update Scheduled": "Not Scheduled Yet",
-	"prereuisite": [
-		"SAP® Basic System Operation",
-		"ABAP® Basics"
-	],
-	"Topics Covered": [
-		"Netweaver Gateway Architecture",
-		"Service Creation in Gateway",
-		"Service Integration With UI5 Apps",
-		"Service Debugging",
-		"Complementory Module of SAP® HANA® XS",
-		"Integration and Service Creation With HANA® XS",
-		"And More..."
-
-	],
-	"Instructor": [
-		{
-			"name":"Ajay Nayak",
-			"Image":"https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
-		}
-	]
-}, {
-	"snum": 4,
-	"name": "SAPUI5 Advanced Professional Development",
-	"Desc": "After getting a hands on experience with SAPUI5 libraries, it is time to explore possibilities and give your application an edge. This is what separates 10% of the people who focus on quality and are committed to mastery.In real world UI5 applications you will require lot of tweaking and tailoring to make it presentable to your customers and usable. If you are looking for that aww effect in your application or want to take it to next level then this course will help you to gain that advantage.We will cover Maps, Sorting, Filtering, Grouping, Routing and also show you how you can create your own custom components. So you and your work can stand out of crowd.This course will be extended in future if any new changes on components are requested to be covered by students.",
-	"Level": "Advanced",
-	"link":"https://www.ui5cn.com/courses/sap-ui5-advanced",
-	"timeofCourseinHrs": 5,
-	"timetoComplete": 10,
-	"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/031/1761476281610.original.jpg",
-	"User Rating": 5,
-	"UI5CN Internal Critic Rating": 5,
-	"Last Updated": "20/10/2016",
-	"Next Update Scheduled": "Not Scheduled Yet",
-	"prereuisite": [
-		"SAP® Basic System Operation",
-		"ABAP® Basics",
-		"Good With Javascript",
-		"Learn SAPUI5 Professional Development"
-	],
-	"Topics Covered": [
-		"Maps with UI5",
-		"Creating Custom component with UI5",
-		"Routing With UI5",
-		"Component.js and More in Details",
-		"Sorting, Filtering and Grouping in Tables"
-
-	],
-	"Instructor": [
-		{
-			"name":"Ajay Nayak",
-			"Image":"https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
-		}
-	]
-}, {
-	"snum": 5,
-	"name": "SAP® Web IDE Professional and Advanced",
-	"Desc": "What is SAP® Web IDE in NutshellSAP® Web IDE is a Powerful Integrated Development Environment out of the box, which provides the capability to Develop, Design, Integrate and Deploy on ECC, HXE, HXA, HCP, SCP and On-Premise SAP® Systems with less effort and high standards.\n\nWhat this course is aboutIn this 04 weeks ongoing course, we will cover Web IDE in 360 Degree.\n✔ We will cover where it fits in\n✔ What are architectures in which it would be used\n✔ How many different types of Web IDE we have and where they are used How to work personal edition and cloud edition of Web IDE\n✔ How it fits in with SCP(SAP® Cloud Platform) and S/4 HANA®\n✔ How it integrates with ECC system, Cloud System and On-Premise Systems\n✔ How to use Design time tool to Accelerate the development process in UI5 Apps Development and Extending Fiori® Apps\n✔ How to extend Web IDE future to contribute to Web IDE community if you are interested in making Web IDE better.It is not a basic course but a complete end-to-end detailed course which starts from basics to mastery on Web IDE.Who should take this course and why\n✔ Highly recommended to SAP® Developers, Consultant, Senior Consultant and Architect to increase productivity and staying relevant in the market.\n✔ SAP® Solution Architect, Analyst, Senior Analyst and Manager can understand deployment and Architectural insides.\n✔ Enthusiast who want to work on HANA®, UI5 and Enterprise Technologies.",
-	"Level": "Intermediate",
-	"link":"https://www.ui5cn.com/courses/sap-web-ide-professional-and-advanced-dev/",
-	"timeofCourseinHrs": 11,
-	"timetoComplete": 22,
-	"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/261/9401519920922.original.jpg",
-	"User Rating": 5,
-	"UI5CN Internal Critic Rating": 5,
-	"Last Updated": "24/03/2018",
-	"Next Update Scheduled": "Not Scheduled Yet",
-	"prereuisite": [
-		"SAP® Basic System Operation",
-		"ABAP® Basics",
-		"Good With Javascript",
-		"Learn SAPUI5 Professional Development",
-		"SAP® Netweaver Gateway for SAPUI5"
-	],
-	"Topics Covered": [
-		"SAP® Cloud and on-Premise Linkage",
-		"Connecting Web IDE to SCP and on-Premise",
-		"App Development and Debugging With ECC",
-		"Development With custom oData Services",
-		"Debugging, Customisation and more..."
-
-	],
-	"Instructor": [
-		{
-			"name":"Ajay Nayak",
-			"Image":"https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
-		}
-	]
-}
-],
-			"pathIntermediate": [{
-				"snum": 1,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
-				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
-				],
-				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
-
-					"Ajay"
-				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
-			}, {
-				"snum": 2,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
-				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
-				],
-				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
-
-					"Ajay"
-				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
-			}, {
-				"snum": 3,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
-				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
-				],
-				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
-
-					"Ajay"
-				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
-			}, {
-				"snum": 4,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
-				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
-				],
-				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
-
-					"Ajay"
-				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
-			}, {
-				"snum": 5,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
-				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
-				],
-				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
-
-					"Ajay"
-				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
-			}],
-			"pathAdvace": [{
-				"snum": 1,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
-				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
-				],
-				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
-					{
-						"name":"Ajay Nayak",
-						"Image":"https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
-					},
-					{
-						"name":"Manasvi",
-						"Image":"https://s3.amazonaws.com/thinkific/instructors/000/077/9801498572896.small.jpg"
-					}
-				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
-			}, {
-				"snum": 2,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
-				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
-				],
-				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
-
-					"Ajay"
-				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
-			}, {
-				"snum": 3,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
-				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
-				],
-				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
-
-					"Ajay"
-				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
-			}, {
-				"snum": 4,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
-				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
-				],
-				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
-
-					"Ajay"
-				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
-			}, {
-				"snum": 5,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
-				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
-				],
-				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
-
-					"Ajay"
-				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
-			}],
-			"upcoming":[]
-			
-		},
-			{
-			"Title": "Python Developer",
-			"pathonGoing":[],
+			"Title": "SAPUI5 End-to-End Consultant",
+			"SubTitle": "Becoming UI5 End-to-End Consultant From Basics (ABAP Developer Mostly)",
+			"Avg. User Rating": 4.5,
+			"UI5CN Internal Critic Rating": 4,
+			"pathonGoing": [],
 			"pathBasic": [{
 				"snum": 1,
 				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
+				"Desc": "Learn SAP®UI5, Fiori® and new UX and Get certified from UI5CNSAP world is moving very fast and in completely new directions and if you do not keep up with them then you will be left out. This course will give you real life experience, knowledge and skills in a most interesting and simple way .This is the introductory part of a three series course to master in SAP UX . ",
 				"Level": "Beginer",
+				"link": "https://www.ui5cn.com/courses/sap-sapui5-fiori-and-new-ux-getting-started",
 				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://i.ytimg.com/vi/LTP1JmYfAeY/hqdefault.jpg",
+				"timetoComplete": 5,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
 				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
+				"UI5CN Internal Critic Rating": 2.5,
+				"Last Updated": "20/05/2016",
 				"Next Update Scheduled": "20/03/2018",
 				"prereuisite": [
 					"HTML5",
@@ -520,160 +29,161 @@
 					"UX of UI5",
 					"Basic App Development"
 				],
-				"Instructor": [
-					{
-						"name":"Ajay Nayak",
-						"Image":"https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
-					},
-					{
-						"name":"Ved",
-						"Image":"https://s3.amazonaws.com/thinkific/instructors/000/077/9801498572896.small.jpg"
-					}
-				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
+				"Instructor": [{
+					"name": "Ajay Nayak",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
+				}]
 			}, {
 				"snum": 2,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
+				"name": "Learn SAPUI5 Professional Development",
+				"Desc": "SAPUI5 / Open UI5 is the top trend in the SAP Technical marketplaceAlmost all the major projects now require this skill-set.\nThe development with SAPUI5 / Open UI5 involves new and cutting edge technologies, responsible for bringing a lot of aspects related to web app development, which makes it difficult to learn.\nThis course is the final result of months of preparation and planning to compile all the details in making the learning process easy, complete and fast./nWhat are benefits of this course :\n\n-If you want to learn SAP UI5 /Open UI5 then this course will be for you.It comes with rich content that takes you from writing a simple 'Hello World' app to building your own responsive SAP UI5 complex app.\n-The majority of the content is hands-on, which involves a lot of challenges and exercises and makes the course interesting and engaging.\n-The course covers not only individual topics but also describes real world scenarios where the concepts are used.\n-The course also shares SAP UI5 best practices of implementing a concept to a real SAP global project.\n-The course also shares a bunch of code snippets and examples in a cloud based IDE, where students can have 24*7 access and which is going to be crucial during the development phase of the project. The students will have the best SAP UI5 tutorial examples they can find.\n-The course examples were carefully selected to make the course fun, interesting and engaging to learn.\n-The development scenarios include simulating common mistakes that UI5 developers frequently make, so they can learn exactly how to fix fast.\n-The course also contains a UI5 Capstone Project to put all the learning into practice.The project is carefully crafted to make students understand real world scenarios and the roles they would have to perform in the team.\n-The course covers all the aspects of SAP UI5 /Open UI5 development, may it be wire-framing, design and analysis, development or styling and theming.\n-The course shares information about lots of tools and plugins, which will boost the developers' productivity and efficiency.",
+				"Level": "Intermediate",
+				"link": "https://www.ui5cn.com/courses/learn-sapui5",
+				"timeofCourseinHrs": 7,
+				"timetoComplete": 21,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3561476281722.original.jpg",
+				"User Rating": 5,
+				"UI5CN Internal Critic Rating": 4,
+				"Last Updated": "20/07/2016",
+				"Next Update Scheduled": "Not Scheduled Yet",
 				"prereuisite": [
 					"HTML5",
 					"Basic Web Programming",
-					"Basic Idea About SAP®"
+					"Basic Idea About SAP®",
+					"SAP® UI5 and Fiori® Getting Started",
+					"Javascript Basics"
 				],
 				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
-					{
-						"name":"Ajay Nayak",
-						"Image":"https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
-					}
-				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
+					"UI5 Commponenects in details",
+					"Control Flow of Apps",
+					"Databing in UI5",
+					"Events in UI5",
+					"Aggregration and Factory Functions",
+					"Intgration With UI5",
+					"Lifecycle Hooks in UI5",
+					"Additional concepts like i18n",
+					"Theming and CSS Change in App",
+					"And Many More..."
 
-				]
+				],
+				"Instructor": [{
+					"name": "Ajay Nayak",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
+				}]
 			}, {
 				"snum": 3,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
+				"name": "SAP® Netweaver Gateway for SAPUI5, Fiori and HANA®",
+				"Desc": "SAP® world is moving very fast and in completely new directions and if you do not keep up with them then you will be left out.This course will give you a real life experience, knowledge and skills in a very interesting and a simple way.It is packed up with information, knowledge, hands-on and real life project experience learning.At the end of my course, you will be able to:\n-Understand what is behind the buzzword of API and how it is implemented in an Enterprise.\n-After taking this course you can work as an API developer in an SAP Netweaver Gateway project.\n-Learn to implement API management in SAP Netweaver Gateway and in general./\n-Run your first API end-to-end scenario using SAP Netweaver Gateway and SAPUI5.",
+				"Level": "Intermediate",
+				"link": "https://www.ui5cn.com/courses/sap-netweaver-gateway-for-sapui5-sap-fiori-and-sap-hana",
+				"timeofCourseinHrs": 5,
+				"timetoComplete": 14,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/1671476281760.original.jpg",
+				"User Rating": 4,
+				"UI5CN Internal Critic Rating": 4,
+				"Last Updated": "20/10/2016",
+				"Next Update Scheduled": "Not Scheduled Yet",
 				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
+					"SAP® Basic System Operation",
+					"ABAP® Basics"
 				],
 				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
+					"Netweaver Gateway Architecture",
+					"Service Creation in Gateway",
+					"Service Integration With UI5 Apps",
+					"Service Debugging",
+					"Complementory Module of SAP® HANA® XS",
+					"Integration and Service Creation With HANA® XS",
+					"And More..."
 
-					"Ajay"
 				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
+				"Instructor": [{
+					"name": "Ajay Nayak",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
+				}]
 			}, {
 				"snum": 4,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
+				"name": "SAPUI5 Advanced Professional Development",
+				"Desc": "After getting a hands on experience with SAPUI5 libraries, it is time to explore possibilities and give your application an edge. This is what separates 10% of the people who focus on quality and are committed to mastery.In real world UI5 applications you will require lot of tweaking and tailoring to make it presentable to your customers and usable. If you are looking for that aww effect in your application or want to take it to next level then this course will help you to gain that advantage.We will cover Maps, Sorting, Filtering, Grouping, Routing and also show you how you can create your own custom components. So you and your work can stand out of crowd.This course will be extended in future if any new changes on components are requested to be covered by students.",
+				"Level": "Advanced",
+				"link": "https://www.ui5cn.com/courses/sap-ui5-advanced",
+				"timeofCourseinHrs": 5,
+				"timetoComplete": 10,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/031/1761476281610.original.jpg",
+				"User Rating": 5,
+				"UI5CN Internal Critic Rating": 5,
+				"Last Updated": "20/10/2016",
+				"Next Update Scheduled": "Not Scheduled Yet",
 				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
+					"SAP® Basic System Operation",
+					"ABAP® Basics",
+					"Good With Javascript",
+					"Learn SAPUI5 Professional Development"
 				],
 				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
+					"Maps with UI5",
+					"Creating Custom component with UI5",
+					"Routing With UI5",
+					"Component.js and More in Details",
+					"Sorting, Filtering and Grouping in Tables"
 
-					"Ajay"
 				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
+				"Instructor": [{
+					"name": "Ajay Nayak",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
+				}]
 			}, {
 				"snum": 5,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
+				"name": "SAP® Web IDE Professional and Advanced",
+				"Desc": "What is SAP® Web IDE in NutshellSAP® Web IDE is a Powerful Integrated Development Environment out of the box, which provides the capability to Develop, Design, Integrate and Deploy on ECC, HXE, HXA, HCP, SCP and On-Premise SAP® Systems with less effort and high standards.\n\nWhat this course is aboutIn this 04 weeks ongoing course, we will cover Web IDE in 360 Degree.\n✔ We will cover where it fits in\n✔ What are architectures in which it would be used\n✔ How many different types of Web IDE we have and where they are used How to work personal edition and cloud edition of Web IDE\n✔ How it fits in with SCP(SAP® Cloud Platform) and S/4 HANA®\n✔ How it integrates with ECC system, Cloud System and On-Premise Systems\n✔ How to use Design time tool to Accelerate the development process in UI5 Apps Development and Extending Fiori® Apps\n✔ How to extend Web IDE future to contribute to Web IDE community if you are interested in making Web IDE better.It is not a basic course but a complete end-to-end detailed course which starts from basics to mastery on Web IDE.Who should take this course and why\n✔ Highly recommended to SAP® Developers, Consultant, Senior Consultant and Architect to increase productivity and staying relevant in the market.\n✔ SAP® Solution Architect, Analyst, Senior Analyst and Manager can understand deployment and Architectural insides.\n✔ Enthusiast who want to work on HANA®, UI5 and Enterprise Technologies.",
+				"Level": "Intermediate",
+				"link": "https://www.ui5cn.com/courses/sap-web-ide-professional-and-advanced-dev/",
+				"timeofCourseinHrs": 11,
+				"timetoComplete": 22,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/261/9401519920922.original.jpg",
+				"User Rating": 5,
+				"UI5CN Internal Critic Rating": 5,
+				"Last Updated": "24/03/2018",
+				"Next Update Scheduled": "Not Scheduled Yet",
 				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
+					"SAP® Basic System Operation",
+					"ABAP® Basics",
+					"Good With Javascript",
+					"Learn SAPUI5 Professional Development",
+					"SAP® Netweaver Gateway for SAPUI5"
 				],
 				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
+					"SAP® Cloud and on-Premise Linkage",
+					"Connecting Web IDE to SCP and on-Premise",
+					"App Development and Debugging With ECC",
+					"Development With custom oData Services",
+					"Debugging, Customisation and more..."
 
-					"Ajay"
 				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
+				"Instructor": [{
+					"name": "Ajay Nayak",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
+				}]
+			}]
 
-				]
-			}],
-			"pathIntermediate": [{
+		}, {
+			"Title": "UI5 Front End Developer",
+			"Avg. User Rating": 4.5,
+			"UI5CN Internal Critic Rating": 4,
+			"SubTitle": "Becoming UI5 Developer and Designer From Basics (JS Developer Mostly)",
+			"pathonGoing": [],
+			"pathBasic": [{
 				"snum": 1,
 				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
+				"Desc": "Learn SAP®UI5, Fiori® and new UX and Get certified from UI5CNSAP world is moving very fast and in completely new directions and if you do not keep up with them then you will be left out. This course will give you real life experience, knowledge and skills in a most interesting and simple way .This is the introductory part of a three series course to master in SAP UX . ",
 				"Level": "Beginer",
+				"link": "https://www.ui5cn.com/courses/sap-sapui5-fiori-and-new-ux-getting-started",
 				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
+				"timetoComplete": 5,
 				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
 				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
+				"UI5CN Internal Critic Rating": 2.5,
+				"Last Updated": "20/05/2016",
 				"Next Update Scheduled": "20/03/2018",
 				"prereuisite": [
 					"HTML5",
@@ -684,299 +194,565 @@
 					"UX of UI5",
 					"Basic App Development"
 				],
-				"Instructor": [
-
-					"Ajay"
-				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
+				"Instructor": [{
+					"name": "Ajay Nayak",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
+				}]
 			}, {
 				"snum": 2,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
+				"name": "Learn SAPUI5 Professional Development",
+				"Desc": "SAPUI5 / Open UI5 is the top trend in the SAP Technical marketplaceAlmost all the major projects now require this skill-set.\nThe development with SAPUI5 / Open UI5 involves new and cutting edge technologies, responsible for bringing a lot of aspects related to web app development, which makes it difficult to learn.\nThis course is the final result of months of preparation and planning to compile all the details in making the learning process easy, complete and fast./nWhat are benefits of this course :\n\n-If you want to learn SAP UI5 /Open UI5 then this course will be for you.It comes with rich content that takes you from writing a simple 'Hello World' app to building your own responsive SAP UI5 complex app.\n-The majority of the content is hands-on, which involves a lot of challenges and exercises and makes the course interesting and engaging.\n-The course covers not only individual topics but also describes real world scenarios where the concepts are used.\n-The course also shares SAP UI5 best practices of implementing a concept to a real SAP global project.\n-The course also shares a bunch of code snippets and examples in a cloud based IDE, where students can have 24*7 access and which is going to be crucial during the development phase of the project. The students will have the best SAP UI5 tutorial examples they can find.\n-The course examples were carefully selected to make the course fun, interesting and engaging to learn.\n-The development scenarios include simulating common mistakes that UI5 developers frequently make, so they can learn exactly how to fix fast.\n-The course also contains a UI5 Capstone Project to put all the learning into practice.The project is carefully crafted to make students understand real world scenarios and the roles they would have to perform in the team.\n-The course covers all the aspects of SAP UI5 /Open UI5 development, may it be wire-framing, design and analysis, development or styling and theming.\n-The course shares information about lots of tools and plugins, which will boost the developers' productivity and efficiency.",
+				"Level": "Intermediate",
+				"link": "https://www.ui5cn.com/courses/learn-sapui5",
+				"timeofCourseinHrs": 7,
+				"timetoComplete": 21,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3561476281722.original.jpg",
+				"User Rating": 5,
+				"UI5CN Internal Critic Rating": 4,
+				"Last Updated": "20/07/2016",
+				"Next Update Scheduled": "Not Scheduled Yet",
 				"prereuisite": [
 					"HTML5",
 					"Basic Web Programming",
-					"Basic Idea About SAP®"
+					"Basic Idea About SAP®",
+					"SAP® UI5 and Fiori® Getting Started",
+					"Javascript Basics"
 				],
 				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
+					"UI5 Commponenects in details",
+					"Control Flow of Apps",
+					"Databing in UI5",
+					"Events in UI5",
+					"Aggregration and Factory Functions",
+					"Intgration With UI5",
+					"Lifecycle Hooks in UI5",
+					"Additional concepts like i18n",
+					"Theming and CSS Change in App",
+					"And Many More..."
 
-					"Ajay"
 				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
+				"Instructor": [{
+					"name": "Ajay Nayak",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
+				}]
 			}, {
 				"snum": 3,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
+				"name": "SAPUI5 Advanced Professional Development",
+				"Desc": "After getting a hands on experience with SAPUI5 libraries, it is time to explore possibilities and give your application an edge. This is what separates 10% of the people who focus on quality and are committed to mastery.In real world UI5 applications you will require lot of tweaking and tailoring to make it presentable to your customers and usable. If you are looking for that aww effect in your application or want to take it to next level then this course will help you to gain that advantage.We will cover Maps, Sorting, Filtering, Grouping, Routing and also show you how you can create your own custom components. So you and your work can stand out of crowd.This course will be extended in future if any new changes on components are requested to be covered by students.",
+				"Level": "Advanced",
+				"link": "https://www.ui5cn.com/courses/sap-ui5-advanced",
+				"timeofCourseinHrs": 5,
+				"timetoComplete": 10,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/031/1761476281610.original.jpg",
+				"User Rating": 5,
+				"UI5CN Internal Critic Rating": 5,
+				"Last Updated": "20/10/2016",
+				"Next Update Scheduled": "Not Scheduled Yet",
 				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
+					"SAP® Basic System Operation",
+					"ABAP® Basics",
+					"Good With Javascript",
+					"Learn SAPUI5 Professional Development"
 				],
 				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
+					"Maps with UI5",
+					"Creating Custom component with UI5",
+					"Routing With UI5",
+					"Component.js and More in Details",
+					"Sorting, Filtering and Grouping in Tables"
 
-					"Ajay"
 				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
+				"Instructor": [{
+					"name": "Ajay Nayak",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
+				}]
 			}, {
 				"snum": 4,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
+				"name": "Design Thinking With Project CORE",
+				"Desc": "Course description\nIn this course, you will get a detail level understanding of what is Design Thinking, how to use it in your own Customer Workshop.\nThe course has 2 major components that contain different approaches on Design Thinking principle:\n✔E-Commerce End\nIt covers a detailed analysis of non-SAP customer requirements followed by mapping of those requirements to User Experience and finally the creation of UI wireframe that follows Material Design Guidelines.\n✔ERP EndIt covers a detailed analysis of SAP customer requirements which is again mapped into User Experience and finally the creation of UI wireframe that follows Fiori Design Guidelines.\nThroughout the course, you will gain an experience of:\n✔How the User Requirements are collected or negotiated based upon on feasibility.\n✔What are the steps to keep in mind while translating those requirements into UI Components.\n✔How to maintain the UX centric mindset, while designing the UI.\n✔How to use of Material Design and Fiori Design Guidelines.\n✔How to ask right questions to users to direct the design workshop in right directions.\nWho Should take this course:\n✔Senior Application Developer\n✔Application Developer\n✔Analyst\n✔Software Architect and Architect Analyst\n",
+				"Level": "Intermediate",
+				"link": "https://www.ui5cn.com/courses/design-thinking-with-project-core",
+				"timeofCourseinHrs": 5,
+				"timetoComplete": 7,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/190/2231507034711.original.jpg",
+				"User Rating": 4,
+				"UI5CN Internal Critic Rating": 4,
+				"Last Updated": "24/11/2017",
+				"Next Update Scheduled": "Not Scheduled Yet",
 				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
+					"Basic Idea About SAP®",
+					"Basic Idea About UI5"
 				],
 				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
+					"Customer Workshop",
+					"Design Thinking and UX Workshop"
 
-					"Ajay"
 				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
+				"Instructor": [{
+					"name": "Ajay Nayak",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
+				}]
 			}, {
 				"snum": 5,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
+				"name": "SAP® Web IDE Professional and Advanced",
+				"Desc": "What is SAP® Web IDE in NutshellSAP® Web IDE is a Powerful Integrated Development Environment out of the box, which provides the capability to Develop, Design, Integrate and Deploy on ECC, HXE, HXA, HCP, SCP and On-Premise SAP® Systems with less effort and high standards.\n\nWhat this course is aboutIn this 04 weeks ongoing course, we will cover Web IDE in 360 Degree.\n✔ We will cover where it fits in\n✔ What are architectures in which it would be used\n✔ How many different types of Web IDE we have and where they are used How to work personal edition and cloud edition of Web IDE\n✔ How it fits in with SCP(SAP® Cloud Platform) and S/4 HANA®\n✔ How it integrates with ECC system, Cloud System and On-Premise Systems\n✔ How to use Design time tool to Accelerate the development process in UI5 Apps Development and Extending Fiori® Apps\n✔ How to extend Web IDE future to contribute to Web IDE community if you are interested in making Web IDE better.It is not a basic course but a complete end-to-end detailed course which starts from basics to mastery on Web IDE.Who should take this course and why\n✔ Highly recommended to SAP® Developers, Consultant, Senior Consultant and Architect to increase productivity and staying relevant in the market.\n✔ SAP® Solution Architect, Analyst, Senior Analyst and Manager can understand deployment and Architectural insides.\n✔ Enthusiast who want to work on HANA®, UI5 and Enterprise Technologies.",
+				"Level": "Intermediate",
+				"link": "https://www.ui5cn.com/courses/sap-web-ide-professional-and-advanced-dev/",
+				"timeofCourseinHrs": 11,
+				"timetoComplete": 22,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/261/9401519920922.original.jpg",
+				"User Rating": 5,
+				"UI5CN Internal Critic Rating": 5,
+				"Last Updated": "24/03/2018",
+				"Next Update Scheduled": "Not Scheduled Yet",
 				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
+					"SAP® Basic System Operation",
+					"ABAP® Basics",
+					"Good With Javascript",
+					"Learn SAPUI5 Professional Development",
+					"SAP® Netweaver Gateway for SAPUI5"
 				],
 				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
+					"SAP® Cloud and on-Premise Linkage",
+					"Connecting Web IDE to SCP and on-Premise",
+					"App Development and Debugging With ECC",
+					"Development With custom oData Services",
+					"Debugging, Customisation and more..."
 
-					"Ajay"
 				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
+				"Instructor": [{
+					"name": "Ajay Nayak",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
+				}]
+			}]
 
-				]
-			}],
-			"pathAdvace": [{
+		}, {
+			"Title": "Data Viz Designer and Dev",
+			"Avg. User Rating": 4.5,
+			"UI5CN Internal Critic Rating": 4,
+			"SubTitle": "Consultant who Work With Data Analytics, Graphs, Designing Vizualization and Developing UI's",
+			"pathonGoing": [],
+			"pathBasic": [{
 				"snum": 1,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
+				"name": "Learn D3JS(v3) Hands-on And Simple Way",
+				"Desc": "Course description\nWhat is D3?\n✔D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3 stands for Data-Driven Documents and is currently the number one choice for web-based analytics and visualization projects when it comes to interactivity, flexibility, and features.\n✔D3.js is open source and have a huge set of powerful libraries to take advantage of. The possibility with D3 are endless but the main challenge for learning D3 is it's steep learning curve. The video contents and shared repositories in the course are designed in such a way that it provides a step-by-step and hands-on methodology to get a solid grasp on the concept and get working knowledge of the technology.\n✔All the major elements and functionalities one might use in D3 projects are covered and explained very well, so students will have no problem in implementing the learning into practice.\n✔There is also a working data visualization project which is explained in this course and build from scratch so students can understand the details of implementation and problem-solving approach with D3.js.\n✔Basic and Advance concepts are covered in a logical sequence, so students will know why a concept is required and when to use it in visualization or analytics project.\n✔All the learning in this course are kept hands-on basis and the development codes and repositories are shared via the cloud, so students will have access to the code snippets anytime from anywhere for free.\n✔The course not only covers the libraries, elements, and features but also provides knowledge and understanding of when to use them so students can make the transition from a newcomer in D3.js development to professional with ease in less time.\n✔This course also covers the debugging aspect of development with D3.js and explains what tools to use and how to use it to identify errors, bugs and fix them fast.\nWhat are the requirements?\n✔The student must have a basic understanding of web terminologies.\nWhat am I going to get from this course?\n✔Get ready to work in Analytics or Visualization projects involving D3.js to create awesome visualizations.\n✔Know how to use D3.js libraries and work with it.\n✔Work with the external data source and create awesome analytics out of it.\n✔Get certified from UI5CN\nWhat is the target audience?\n✔Developers interested to work with D3.js for analytics and visualization application.\n✔Data Analyst and Scientists who are looking for a great technological option for web-based data visualization.\n✔Students who want to complete analytics and visualization project using D3.js.\nYou can also check out our bundle courses in Complete Data Visualization and Analytics End-to-End\n",
+				"Level": "Intermediate",
+				"link": "https://www.ui5cn.com/courses/learn-d3js",
+				"timeofCourseinHrs": 8,
+				"timetoComplete": 24,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/5641476281853.original.jpg",
+				"User Rating": 3.8,
+				"UI5CN Internal Critic Rating": 4,
+				"Last Updated": "20/05/2016",
+				"Next Update Scheduled": "Not Scheduled Yet",
 				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
+					"Basic JS, HTML5 and CSS"
 				],
 				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
+					"Canvas and Drawing",
+					"D3JS Lib and Componenets",
+					"D3JS Data and Analytics Drawing",
+					"D3JS End-to-End Project",
+					"Debugging and Best Practice With D3JS"
 				],
-				"Instructor": [
-
-					"Ajay"
-				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
+				"Instructor": [{
+					"name": "Ajay Nayak",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
+				}]
 			}, {
 				"snum": 2,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
+				"name": "Introduction to Data Visualization",
+				"Desc": "Course description\nWhy Data Visualization?\n✔If you would like to work in an exciting analytics and data visualization project, then this is the starting point for you.\n✔In the current scenario, data is the currency and the potential to use it the right way, at the right time for the right reason gives you possibility beyond imagination.\n✔Data visualization is a vast topic and consist of many sub-parts which are a subject in itself. We in our course have tried to paint a clear picture of what you need to know and what people will be looking for you in a visualization project.\n✔UX in Data visualization is key in modern times to meet the expectation of your user.This course will highlight what are the benefits of using a good UX and how to do it.\n✔This course is structured to provide all the key aspect of Data visualization in the most simple and clear fashion.So you can start the journey in the data visualization world.\nWhat are the requirements?\n✔Having a basic understanding about terminologies used in web technologies and design.\nWhat am I going to get from this course?\n✔Learn and understand the importance of data visualization.\n✔Learn what is user experience in data visualization and its importance.\n✔Learn about basic and advance chart types used in data visualization.\n✔Learn the psychology of visualization with Gestalt Principles.\n✔Earn certification by learning the concepts simple\n✔Get a solid understanding of how people work in data visualization project.\nWhat is the target audience?\n✔People who want to get into data visualization.\n✔Developers who want to work in analytics and visualization project.\n✔Web, Mobile App and Software Designer.\n✔Design thinker.\n✔Graduate Students and University Students.\n",
+				"Level": "Basic",
+				"link": "https://www.ui5cn.com/courses/introduction-to-data-visualization",
 				"timeofCourseinHrs": 3,
 				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3501476281689.original.jpg",
+				"User Rating": 3,
+				"UI5CN Internal Critic Rating": 2.7,
+				"Last Updated": "20/07/2017",
+				"Next Update Scheduled": "Not Scheduled Yet",
 				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
+					"No Prereuisite"
 				],
 				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
+					"Data Visualization Basics and Theory",
+					"Types of Graphs and Where they are Used",
+					"Overview of Data Analytics Solutions"
 
-					"Ajay"
 				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
+				"Instructor": [{
+					"name": "Ajay Nayak",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
+				}]
 			}, {
 				"snum": 3,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
+				"name": "Learn Data Visualization and Become Data Analyst",
+				"Desc": "Course description\nDecision makers who run our world and corporations use data effectively, to give them clarity to take relevant and fast decisions.\nData is considered to be the new currency and in order to use it properly, we need to know how to visualize it effectively.Great visualization is difficult because they consist of a good mix of science and art.\n✔In this course, you will learn the process of data visualization in simple and effective 7-step approach.\n✔You will understand how to start a visualization project on a right note.\n✔You will be able to categorize and characterize types of visualization to simplify decision-making steps in the process.\n✔You will see in details, how to work with a real world visualization use-case.\n✔You will learn how to have an UX-centric approach in the design phase of data visualization.\n✔You will learn how to use wireframing tools to build your data visualization design for the use-case.\n✔And finally, you will come to know how to use D3 to bring design to real life.\nWhat are the requirements?\n✔Basic understanding about data and analytics terminology.\nWhat am I going to get from this course?\n✔Learn the process of data visualization with real world use-case.\n✔Learn and get ready to work on data visualization and analytics project.\n✔Learn how to build UX centric design for data visualization using wireframing tools.\n✔Learn how to characterize data visualization according to outcome.\n✔Learn how bring your visualization design to real life using D3.\n✔Earn UI5CN verified certificate.\nWhat is the target audience?\n✔You should take this course if you want to work on data visualization projects.\n✔You should take this course if you want to work as a project manager in data visualization project .\n✔You should take this course if you want to work as a business analyst or stakeholders in data visualization project .\n✔You should take this course if want to develop an analytics application for your business.\n✔You should take this course if you are an IT/Computer Science Graduate Students and University Students.\n",
+				"Level": "Intermediate",
+				"link": "https://www.ui5cn.com/courses/learn-data-visualization-and-become-data-analyst",
+				"timeofCourseinHrs": 4,
+				"timetoComplete": 10,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/5581476281961.original.jpg",
+				"User Rating": 4.8,
+				"UI5CN Internal Critic Rating": 3.5,
+				"Last Updated": "20/05/2016",
+				"Next Update Scheduled": "Not Scheduled Yet",
 				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
+					"Introduction to Data Visualization - Course",
+					"Learn D3JS(v3) Hands-on And Simple Way"
 				],
 				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
+					"Data Project Visualization Breakdown",
+					"7 Steps of Data Visualization",
+					"Hands-on Data Visualization Project With D3JS"
 				],
-				"Instructor": [
+				"Instructor": [{
+					"name": "Ajay Nayak",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
+				}]
+			}]
 
-					"Ajay"
+		}, {
+			"Title": "MEAN Stack End-to-End Developer",
+			"Avg. User Rating": 4,
+			"UI5CN Internal Critic Rating": 3,
+			"SubTitle": "Learn End-to-End App Development With Mongo DB(M), Express JS(E), Angular JS(A) and Node JS(N)",
+			"pathonGoing": [],
+			"pathBasic": [{
+				"snum": 1,
+				"name": "Learn Basics of AngularJS in 59 minutes by building a Game App",
+				"Desc": "Course description\nAngularJS from Google is one of the best open source, front-end javascript framework to create applications. Knowing AngularJS can get you a job or improve the one you have. It's a skill that will put you more in demand in the modern web development industry, and make your web software life a lot easier.\nLearning AngularJS can be a real challenge because it involves understanding many concepts and requires a hands-on grasp of these concepts.The current course will give you a head-start in the right direction for learning AngularJS.\nIn this course, you will be creating your own basic Hangman Game App which you can also play with your friends. By building Hangman Game App we will also show you how the requirements are mapped into small sprints and how as a developer you can do unit testing and integration testing.\nIn a nutshell, this short course is designed to give you a quick glimpse of development process involved in the project involving AngularJS or similar front end technologies.\nCheck the Live Running App Here!\nIf you want to Learn More In-Depth of AngularJS. You can check out our 'Learn and Understand AngularJS' Course. Where you can Learn AngularJS deeper by creating a Pokemon App that you can Play with your Friends.\n",
+				"Level": "Beginner",
+				"link": "https://www.ui5cn.com/courses/learn-basics-of-angularjs-in-59-minutes-by-building-game-app",
+				"timeofCourseinHrs": 1,
+				"timetoComplete": 2,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/072/8491486193283.original.jpg",
+				"User Rating": 4,
+				"UI5CN Internal Critic Rating": 4,
+				"Last Updated": "10/11/2016",
+				"Next Update Scheduled": "Not Scheduled Yet",
+				"prereuisite": [
+					"Basic Understanding of Computer Programming"
 				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
+				"Topics Covered": [
+					"Angular 1 Basics With Game"
+				],
+				"Instructor": [{
+					"name": "Ajay Nayak",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
+				}]
+			}, {
+				"snum": 2,
+				"name": "Learn and Understand AngularJS(V1)",
+				"Desc": "Course description\nAngularJS from Google is one of the best open source, front-end javascript framework to create applications. Knowing AngularJS can get you a job or improve the one you have. It's a skill that will put you more in demand in the modern web development industry, and make your web software life a lot easier.\nLearning AngularJS can be a real challenge because it involves understanding many concepts and requires a hands-on grasp of these concepts.The current course is designed and created keeping in mind the challenges you can face while learning AngularJS and how you can overcome those.\nWe have kept the coding exercises fun and engaging, with lot's of assignments and at the end of the course, you will be able to design your own Pokemon game with AngularJS which you can play with your friends and family as well.\nWe will be starting from scratch, so even if you have no prior experience in HTML5 and CSS3 following exercises and assignment will not be an issue. Along the way, you will also get to learn all the knowledge and skills you need, to deeply understand and build AngularJS applications\nSo get ready to become a professional AngularJS developer.\nAlso, Check Our Frequent Live webinars Showcasing the Pokemon App, You Will be Building on the Course:\n",
+				"Level": "Intermediate",
+				"link": "https://www.ui5cn.com/courses/angularjs",
+				"timeofCourseinHrs": 14,
+				"timetoComplete": 30,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/049/2111489397499.original.jpg",
+				"User Rating": 3.5,
+				"UI5CN Internal Critic Rating": 3,
+				"Last Updated": "15/10/2016",
+				"Next Update Scheduled": "Not Scheduled Yet",
+				"prereuisite": [
+					"Basic Understanding of Computer Programming"
+				],
+				"Topics Covered": [
+					"Angular 1 - In Details With Game Project",
+					"Code Structuring, Login Page Design, Controllers and Services",
+					"Directives, REST API, Promises and More..."
 
-				]
+				],
+				"Instructor": [{
+					"name": "Manasvi Priyadarshi",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/077/9741498653519.small.jpg"
+				}, {
+					"name": "Ved Mulkalwar",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/077/9801498572896.small.jpg"
+				}]
+			}, {
+				"snum": 3,
+				"name": "Learn and Understand NodeJS",
+				"Desc": "Course description\nGeneral:\nIf you want to learn a powerful server technology so you can:\n✔Build a robust, scalable and reliable web application.\n✔Improve your existing application performance, capabilities, and scale.\n✔Or even get a high paid job.\nThen the next question is why this course when there are plenty other courses to choose from. The answer is this course is not where we are merely teaching you all technical jargons but a project is driven course.\nWhat we have done is broken down the entire topics which one has to know to become a NodeJS developer, who can work and create enterprise level App.\nThen we created an interesting project which is to create your own Instagram using NodeJS, so while learning you will be hooked to the course. Unlike other courses we have kept the quality high, learning deep and project interesting.\nYour instructor is not merely any normal developer but a CTO and Co-Founder and they have been in the situations where stakes were high, work was demanding and competition was world class. They will not only share the know how but the essential experience which they gained. They have kept everything crystal clear and simple to understand.\nTechnical course description:\nYou'll learn how asynchronous code works in Node and the Node event loop, as well as how to use the event emitter, streams, buffers, pipes, and work with files. We'll see how that leads to building a web server in Node. We'll dive into websites, web apps and APIs with Express and learn how Express can save us time as Node developers. During it all, you'll gain a deep understanding of the Javascript concepts and other computer science concepts that power Node.\nNote: In this course, you'll also get access to private Facebook support by instructor where you can interact with them on one-on-one basis, access to git repository of all the (starter) code and after completing this course and exams you will get a certification of completion which you can post to your LinkedIn account as well.\nWhat are the requirements?\n✔Basic Javascript knowledge\n✔Basic HTML knowledge\n",
+				"Level": "Intermediate",
+				"link": "https://www.ui5cn.com/courses/learn-nodejs",
+				"timeofCourseinHrs": 11,
+				"timetoComplete": 45,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/069/2451489400811.original.jpg",
+				"User Rating": 4,
+				"UI5CN Internal Critic Rating": 3.7,
+				"Last Updated": "28/10/2016",
+				"Next Update Scheduled": "Not Scheduled Yet",
+				"prereuisite": [
+					"Basic Understanding of Web Programming",
+					"Basic Understanding of Javascript",
+					"Understanding of how client server work"
+				],
+				"Topics Covered": [
+					"Basic of NodeJS",
+					"Setting up the environment",
+					"Node Package Manager(NPM)",
+					"Callbacks in NodeJS and Events",
+					"File System, Streams, Scaling, ExpressJS and Templating",
+					"Github for version control",
+					"Deploy to remote server(AWS) and More..."
+				],
+				"Instructor": [{
+					"name": "Ved Mulkalwar",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/077/9801498572896.small.jpg"
+				}]
 			}, {
 				"snum": 4,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
+				"name": "Learn and Understand ExpressJS",
+				"Desc": "Course description\nExpressJS, as the name suggests, is a fast, minimal and one of the best web application framework for NodeJS. It is built to design web applications and APIs. In addition, ExpressJS also provides a robust set of features to develop web and mobile applications easily.\nWhy this course?\nAfter taking this course, you can start mastering ExpressJS by building RESTful APIs for your single-page applications. Developers can easily organize their code, add more functionality and configure the server with ExpressJS. In this course you will create your own Blog and Movie Sharing App along with learning ExpressJS and becoming proficient in it.\nWhat are the requirements?\n✔Basic Javascript knowledge\n✔Basic HTML knowledge\n✔Understanding of how client-server work.\nWho is the target audience?\n✔Web developers\n✔Back-end engineers\n✔Software engineers\n",
+				"Level": "Advanced",
+				"link": "https://www.ui5cn.com/courses/expressjs",
+				"timeofCourseinHrs": 6,
+				"timetoComplete": 14,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/079/1021487581333.original.jpg",
+				"User Rating": 3.5,
+				"UI5CN Internal Critic Rating": 3,
+				"Last Updated": "20/10/2016",
+				"Next Update Scheduled": "Not Scheduled Yet",
 				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
+					"Basic Understanding of Web Programming",
+					"Basic Understanding of Javascript",
+					"Understanding of how client server work"
 				],
 				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
+					"Creating Blog using ExpressJS",
+					"REST Node API using a Movie Sharing App",
+					"Testing ExpressJS App"
 				],
-				"Instructor": [
+				"Instructor": [{
+					"name": "Ved Mulkalwar",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/077/9801498572896.small.jpg"
+				}]
+			}]
 
-					"Ajay"
+		}, {
+			"Title": "Python End-to-End Developer",
+			"Avg. User Rating": 4,
+			"UI5CN Internal Critic Rating": 3,
+			"SubTitle": "Learn Python Basics, Advanced, Testing, WebApp, Stand Alone App Dev and Testing",
+			"pathonGoing": [],
+			"pathBasic": [{
+				"snum": 1,
+				"name": "Learn Python Basics : Fun and Simple Way",
+				"Desc": "Course description\nThe Most comprehensive, yet simple course on Python programming language in the entire Web.\nLearn Python in step by step and easy way from scratch . Whether you have coding background or never programmed before this course will make you:\n✔A Python programmer, who knows the basics.\n✔A Python Tester, who can find and fix bugs.\n✔A Python Analyst who can map real world problem into python coding terms\nAnd the best part is you will learn all this while making a Text Editor.\nSo what are you waiting for ?\nJump on-board and Learn Python in a way that will advance your career and increase your knowledge, all in a fun and practical way!\nWhat are the requirements?\n✔Access to a computer with an internet connection.Who is the target audience?\n✔Beginners who have never programmed before.\n✔Programmers switching languages to Python.\n✔Intermediate Python programmers who want to level up their skills !\n",
+				"Level": "Beginner",
+				"link": "https://www.ui5cn.com/courses/learn-python-basics",
+				"timeofCourseinHrs": 9,
+				"timetoComplete": 25,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/057/6901489415043.original.jpg",
+				"User Rating": 3,
+				"UI5CN Internal Critic Rating": 2,
+				"Last Updated": "20/05/2017",
+				"Next Update Scheduled": "Not Scheduled Yet",
+				"prereuisite": [
+					"Basic Understanding of Computer Programming"
 				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
-
-				]
+				"Topics Covered": [
+					"Python Syntaxes",
+					"Basic Concepts",
+					"Integrating Python Modules"
+				],
+				"Instructor": [{
+					"name": "Kripa Sharma",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/036/2171498571419.small.jpg"
+				}]
 			}, {
-				"snum": 5,
-				"name": "SAP® UI5 and Fiori® Getting Started",
-				"Desc": "Some Desc",
-				"Level": "Beginer",
-				"timeofCourseinHrs": 3,
-				"timetoComplete": 3,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 3.8,
-				"Last Updated": "20/05/2017",
-				"Next Update Scheduled": "20/03/2018",
+				"snum": 2,
+				"name": "Learn Python Advance Development",
+				"Desc": "Course description\nPython Advance course has covered each major components which you are going to use in real-world applications. This course covered all advanced topics like Decorators, Context Manager, Monkey Patching, Database Connection with postgresql and sqlite3, Pygame library and many more.\nThis course covers the Advanced Topics in Python. If you want to learn the basics of Python. You can enroll in our Python Basics Course Here.\nThis Course will make you:\n✔A Python programmer, who knows the basics.\n✔A Python developer, who can build and deploy application fast.\n✔A Python Tester, who can find and fix bugs.\n✔A Python Analyst who can map real-world problem into python coding terms\n✔And the best part is you will learn all this while making a Ping-Pong Game.\n✔So what are you waiting for?\nJump on-board and Learn Python in a way that will advance your career and increase your knowledge, all in a fun and practical way!\nWhat are the requirements?\n✔Access to a computer with an internet connection.\nWho is the target audience?\n✔Beginners who have never programmed before.\n✔Programmers switching languages to Python.\n✔Intermediate Python programmers who want to level up their skills !\n",
+				"Level": "Advanced",
+				"link": "https://www.ui5cn.com/courses/python-advanced",
+				"timeofCourseinHrs": 5,
+				"timetoComplete": 18,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/086/7011496754998.original.jpg",
+				"User Rating": 3.5,
+				"UI5CN Internal Critic Rating": 3,
+				"Last Updated": "20/8/2017",
+				"Next Update Scheduled": "Not Scheduled Yet",
 				"prereuisite": [
-					"HTML5",
-					"Basic Web Programming",
-					"Basic Idea About SAP®"
+					"Basic Understanding of Computer Programming",
+					"Learn Python Basics : Fun and Simple Way"
 				],
 				"Topics Covered": [
-					"UX of UI5",
-					"Basic App Development"
-				],
-				"Instructor": [
+					"Practicle Python in Use",
+					"Set, Comprehensions,Iterators and Generators",
+					"Decorators, Context Manager, Monkey Patching",
+					"Advanced: File Handling, Regular Expressions,SQL Database",
+					"OOPs in Python and Final Project"
 
-					"Ajay"
 				],
-				"Course Content": [{
-						"Title": "Main",
-						"Hrs": 1
-					}
+				"Instructor": [{
+					"name": "Kripa Sharma",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/036/2171498571419.small.jpg"
+				}]
+			}, {
+				"snum": 3,
+				"name": "Learn Selenium with Python",
+				"Desc": "Course description\nWriting automated web testing is compulsory for any project and the most popular framework for doing it is Selenium, using WebDriver with Python. Python is very popular for developers and testers in every software field. It will accelerate your success in software quality assurance.\nThis course will put you in a position to apply for any software testing job whether it is manual testing or front-end automation.\nLearn and practice the most popular combination of tools for web test automation with Python.\nLearn How to work with Python environment.\n✔Each concept is discussed in detail and related to real-time web application.\n✔Work with a data-driven approach for your automation suite.\n✔Work with the keyword driven approach for your automation suite.\n✔Build your own test framework with Hybrid Driven Approach mostly used in the industry nowadays.\n✔Discussed case studies with real-world web application (example: UI5CN, OLX, Paytm etc.).\nYou will learn Python programming language in a short period of time. Then you will learn Selenium Webdriver. Python is one of the most popular languages out there. Examples of well-known applications made with Python are Instagram, YouTube, Twitter, Facebook, Dropbox, Meetup and so much more. Knowing Python not only enables your to write front-end automation but also sets you up halfway into learning Back-end API testing.\nContent and Overview\nWe will start from basics, learning in easiest and step by step manner using Eclipse IDE for the Python section and we will work with the most common browsers (example: Google Chrome, Firefox, IE, etc.).\nWhat can you achieve with this course?\n✔You will be able to write web test automation code in a professional way.\n✔You can increase your income by moving from manual to automation tester.\n✔You easily land an automation job in the automation software testing industry.\n✔You will be able to design your own test framework for any web application.\n",
+				"Level": "Advanced",
+				"link": "https://www.ui5cn.com/courses/selenium-with-python",
+				"timeofCourseinHrs": 5,
+				"timetoComplete": 14,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/129/0951498289626.original.jpg?1498289626",
+				"User Rating": 4,
+				"UI5CN Internal Critic Rating": 3.5,
+				"Last Updated": "05/10/2017",
+				"Next Update Scheduled": "Not Scheduled Yet",
+				"prereuisite": [
+					"Basic Understanding of Computer Programming",
+					"Learn Python Basics : Fun and Simple Way",
+					"Learn Python Advance Development"
+				],
+				"Topics Covered": [
+					"Selenium Installation and Basics",
+					"Selenium Web Driver",
+					"Automate with Selenium",
+					"Example : Data Driven Approach, Keyword Driven Approach and  Hybrid Driven Approach"
+				],
+				"Instructor": [{
+					"name": "Kripa Sharma",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/036/2171498571419.small.jpg"
+				}]
+			}, {
+				"snum": 4,
+				"name": "Learn Django Basics with Python",
+				"Desc": "Django is an extremely popular and fully featured server-side web framework, written in Python. In this course, we will learn how to work with Postgresql which is an enterprise database, Jinja2 Template, Bootstrap and more. At the end we will also make anCRUD application with Django.\n\n✔What are the requirements?\n✔Access to a computer with an internet connection.\n✔Basics of HTML\n✔Basics of Python\n✔Who is the Target Audience?\n✔Beginners who want to learn Django\n✔Intermediate Python programmers who want to level up their skills!\n✔If you are New to Python then you can enroll in our",
+				"Level": "Advanced",
+				"link": "https://www.ui5cn.com/courses/learn-django-from-scratch",
+				"timeofCourseinHrs": 4,
+				"timetoComplete": 12,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/089/7281501482575.original.jpg",
+				"User Rating": 3,
+				"UI5CN Internal Critic Rating": 2.7,
+				"Last Updated": "20/10/2017",
+				"Next Update Scheduled": "Not Scheduled Yet",
+				"prereuisite": [
+					"Basic Understanding of Computer Programming",
+					"Learn Python Basics : Fun and Simple Way",
+					"Learn Python Advance Development"
+				],
+				"Topics Covered": [
+					"Django Installation and Basics",
+					"Jinja2 Templates",
+					"Working with Database",
+					"Bootstrap",
+					"CRUD Application"
+				],
+				"Instructor": [{
+					"name": "Kripa Sharma",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/036/2171498571419.small.jpg"
+				}]
+			}]
 
-				]
-			}],
-			"upcoming":[]
-			
+		}, {
+			"Title": "IoT Engineer for PoC Dev",
+			"Avg. User Rating": 4.5,
+			"UI5CN Internal Critic Rating": 3,
+			"SubTitle": "Become IoT Engineer with Hardware Interfacing and Integration Skills",
+			"pathonGoing": [],
+			"pathBasic": [{
+				"snum": 1,
+				"name": "Hack The Arduino®",
+				"Desc": "Desc: Course description\nWith the advancement of technology, Internet of Things(IoT) is gaining a lot of popularity. Soon working on both hardware and software would be a major requirement. The complexity involved in working with hardwares is a lot as there is very little to no scope of making errors here. In addition to that concepts like Analog and Digital Signal Processing plays a very important role here. While building this IoT course, we have kept all these factors in mind and are ready to take you from a basic programmer to professional designer, who will be able to work on industry standards and build POC's for them too.\nThis course is designed to take you through this learning experience one step at a time and every part of the step is hands-on, from blinking of an LED to rotating stepper motor, from designing your own Arduino on breadboard to designing an autonomous line follower bot. All the lessons are simple to follow and engaging at the same time.\nThis course is for:\n✔Anyone with an interest in learning hardware aspect of IoT.\n✔Professionals working majorly on IoT projects.Engineering students.\n✔IoT hobbyists who want to learn more about Arduino and create their own use case.\n✔Anyone who wants to learn more about using Arduino.\nWhat will you learn:\n✔How does Arduino Uno work?\n✔Basic LED Blinking.\n✔How does a H-Bridge work?\n✔How does a DC Motor work?\n✔How does a Stepper Motor work?\n✔Methods to find the type of Stepper Motors.\n✔How does an LDR work.\n✔How does an IR Transmitter and IR Receiver work?\n✔How to connect a Motor to a Driver.\n✔How to Assemble and Program the Sensors.\n✔How to Code the Line Follower Robot.\nSummary:\nYou will first understand how to work with Arduino.\n✔Then we will move on to understand blinking LED's.\n✔Which takes us to the next step which is learning how Arduino works with Analog Sensors and we'll have practicals with stepper motors.\n✔And then learn how to create your own Arduino.\n✔Finally, you will understand how to make Line Follower autonomous bot using customized Arduino in breadboard.\n",
+				"Level": "Intermediate",
+				"link": "https://www.ui5cn.com/courses/sap-sapui5-fiori-and-new-ux-getting-started",
+				"timeofCourseinHrs": 10,
+				"timetoComplete": 22,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/079/1191489397355.original.jpg",
+				"User Rating": 4.1,
+				"UI5CN Internal Critic Rating": 2,
+				"Last Updated": "20/05/2017",
+				"Next Update Scheduled": "Not Scheduled Yet",
+				"prereuisite": [
+					"Basic Understanding of Breadboard",
+					"Basic Understanding of Electronics",
+					"Basic Understanding of Analog and Digital Signals"
+				],
+				"Topics Covered": [
+					"How does Arduino Uno work",
+					"Basic LED Blinking",
+					"How does a H-Bridge work",
+					"How does a DC Motor work",
+					"How does a Stepper Motor work",
+					"Methods to find the type of stepper Motors",
+					"How does an LDR work",
+					"How does an IR Transmitter and IR Receiver work",
+					"How to connect a Motor to a Driver",
+					"How to Assemble and Program the Sensors",
+					"How to Code the Line Follower Robot"
+				],
+				"Instructor": [{
+					"name": "Vipul Khatiyan",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/046/8901487951327.small.png"
+				}]
+			}, {
+				"snum": 2,
+				"name": "ESP8266 - Advanced Professional",
+				"Desc": "Course description\nWhat is ESP8266 and why you should learn it\nESP8266 is among the most integrated Wi-Fi chips in the industry. Measuring just 5mm x 5mm, ESP8266 requires minimal external circuitry and integrates a 32-bit Tensilica microcontroller, standard digital peripheral interfaces, antenna switches, power amplifier, low noise receive amplifier, filters and power management modules - all in one small package. Which makes it perfect for IoT use-case design and development. In many cases, even the production IoT landscape is using ESP8266 due to its capabilities and powerful features. On top of that, it is low cost and available readily.\nWhy you should consider taking this course?\nOne of the challenges while working with ESP8266 is its learning curve. Tools and techniques which one needs to master to get comfortable while using it in projects need to be understood well with a clear understanding of basics. Keeping that in mind we have designed the Professional ESP8266 development course. This course will cover all the concepts one needs to master starting from basics, you will learn how the Architecture of ESP8266 is designed, then you will understand how the flashing is done in ESP8266 where you load your OS, connecting ESP8266 to the internet is then the major step where you will understand the capability of a hardware to communicate with the internet which will enable the IoT . Most of the time hardware endpoints will be connected to data stream network cloud which can manage scale, security and stream of communication. We are using a widely used platform which is PubNub with ESP8266 to demonstrate this.\nAt the end, we will put everything together and also have a small end to end project of a smart home where we will cover from circuit design, development, and implementation with Go-Live.\nWhat are prerequisite\n✔A basic idea of computers and software parts are required\n✔Basic programming skills are required to understand programming syntaxes while coding with ESP8266 and flashing bin files.\n",
+				"Level": "Advanced",
+				"link": "https://www.ui5cn.com/courses/connect-with-cloud-esp8266",
+				"timeofCourseinHrs": 3,
+				"timetoComplete": 10,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/116/9961494596662.original.png",
+				"User Rating": 5,
+				"UI5CN Internal Critic Rating": 2.7,
+				"Last Updated": "20/07/2017",
+				"Next Update Scheduled": "Not Scheduled Yet",
+				"prereuisite": [
+					"Basic Understanding of Breadboard",
+					"Basic Understanding of Electronics",
+					"Basic Understanding of Analog and Digital Signals"
+				],
+				"Topics Covered": [
+					"ESP8266 Basics and Designed",
+					"ESP8266 Interfacing",
+					"Flashing/OS Load in ESP8266",
+					"Internet Connection to ESP8266",
+					"Pushing Data to DSN"
+
+				],
+				"Instructor": [{
+					"name": "Vipul Khatiyan",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/046/8901487951327.small.png"
+				}]
+			}, {
+				"snum": 3,
+				"name": "SAP® HANA® Internet of Things(IoT):Raspberry Pi, Arduino, PubNub DSN and UI5",
+				"Desc": "Course description\nDo you know why all of a sudden all big names in IT like SAP, IBM, Apple, Google, and Amazon are talking about the Internet of Things so seriously ?\nHave you ever read an article or attended a talk or watched a video or even spoke to your colleagues about Internet of Things (IoT) and if so it might have filled you with more questions than answers ?\nTo put in a very simple way, IoT will be bigger than anything that's ever been done in high tech and IoT projects are not simple to do, therefore consultants and teams who are working in IoT are paid top rates and salaries.\nAfter a long and extensive work of more than 5 SAP consultants and hardware experts for more than 1 month, we at UI5CN are able to finally compile a course which can cover entire end-to-end Internet of Things, in a simple and easy to understand way with the certification by UI5CN .\nThis course is packed with information, knowledge, hands-on and real-life project experience learning.\nAfter taking this course:\n✔You will be able to create your own cutting-edge IoT use cases with SAP HANA and extend it with PubNub Cloud, an IoT platform already serving big names in the market.\n✔You will be ready to work and manage an IoT project.\n✔If you have never worked with SAP HANA XSJS or SAPUI5, after taking this course, you will be ready to make your first application.\n✔You will be able to understand how PubNub IoT Cloud works and how it is being used by big names like SAP Finance, Coca-Cola, CBS, Yahoo and many more.\n✔And you will be ready for a pay/rate raise.\nWe have covered SAP HANA Native development, SAPUI5, Raspberry Pi, Arduino Uno and sensor interfacing to solve a personal life problem that will keep the course interesting and fun. Once we achieved that, we will extend the same project by using PubNub Cloud platform and replacing SAP HANA backend.\nAll the steps are easy to follow and understand.\nYou will be learning some of the most difficult technologies with ease because this course was compiled based upon DEEP principle.\nEven if you are a beginner in IT or an expert or a manager you will never regret after taking this course.\nThe Future is Now!\nWhat are the requirements?\n✔We have tried to make the course flow very simple and step by step, so even if you have no or very little experience of SAP HANA or hardware's configuration, you will be able to follow through.\nWhat am I going to get from this course?\n✔Work with Raspberry Pi and configure it for IoT use cases.\n✔Identify all the components and flow in an Internet of Things application.\n✔Create your own cutting edge Internet of Things use cases using SAP HANA XS, SAPUI5, Raspberry Pi and Arduino Uno.\n✔Create your first SAP HANA XSJS and SAPUI5 APP.\n✔Use the very popular PubNub Cloud, an IoT management platform build for commercial use. PubNub is already used by some of the big names like SAP, Yahoo, CBS, Coca-Cola and many more.\n✔Get long-term exciting projects in the Internet of Things with top-market rates and salaries.\n✔Will be awarded Certification from UI5CN\nWhat is the target audience?\n✔For anyone who want to build IoT use case for customers.\n✔For anyone who want to learn Raspberry Pie and learn how to work with it.\n✔For Technical SAP Consultants who want to stay hot in the marketplace and get ready to work in exciting future IoT projects.\n✔For Functional Consultants who want to understand how their role will be in IoT projects.\n✔For Project Managers and Business Analysts who want to understand and get a holistic picture of an IoT project.\n",
+				"Level": "Intermediate",
+				"link": "https://www.ui5cn.com/courses/internet-of-things",
+				"timeofCourseinHrs": 10,
+				"timetoComplete": 25,
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3391476281810.original.jpg",
+				"User Rating": 4.8,
+				"UI5CN Internal Critic Rating": 4,
+				"Last Updated": "20/05/2016",
+				"Next Update Scheduled": "Not Scheduled Yet",
+				"prereuisite": [
+					"SAP® HANA Basic Understanding",
+					"Basic Understanding of Breadboard"
+				],
+				"Topics Covered": [
+					"IoT in Enterprise World With SAP®",
+					"HANA® XSJS Service Creation(Not Covered SAP® IoT Platform)",
+					"Arduino Basics, Connectivity and Interfacing",
+					"Raspberry Pi Basics, Connectivity and Interfacing",
+					"DSN and Connectio with IoT Node"
+
+				],
+				"Instructor": [{
+					"name": "Ajay Nayak",
+					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
+				}]
+			}]
+
 		}
+
 	]
 }
