@@ -1,0 +1,112 @@
+/* Enter your custom styles here */
+.sapUxAPObjectPageHeaderIdentifier{
+    background: radial-gradient(circle farthest-side at center bottom, #0e8686, rgba(0,98,135,0.82) 133%) !important;
+    color:#fff !important;
+
+}
+
+.sapUxAPObjectPageHeaderIdentifier .sapUxAPObjectPageHeaderIdentifierContainer .sapUxAPObjectPageHeaderIdentifierTitle{
+	color:#fff !important;
+}
+.imageCourse{
+	width:250px !important;
+	height:140px !important;
+}
+.descBox{
+	width:80% !important;
+}
+.firstImgHBox{
+	width:35% !important;
+}
+.firstTextHBoxdescBox{
+	width:100% !important;
+}
+.sapUiRespGridMedia-Std-Tablet.sapUiRespGridHSpace0>.sapUiRespGridSpanM6:nth-child(1){
+		width:45% !important;
+}
+.sapUiRespGridMedia-Std-Tablet.sapUiRespGridHSpace0>.sapUiRespGridSpanM6:nth-child(2){
+		width:55% !important;
+}
+.firstImgHBox>.sapMFlexBox>.sapMFlexBox>.sapMFlexItem{
+	padding:5px;
+}
+.ratingStar{
+	margin: 0px !important;
+    padding: 0px !important;
+}
+	
+.imageInstructor{
+	width:50px !important;
+	height:50px !important;
+	border-radius:50% !important;
+	border: 2px solid #8a8a8a;
+}
+.instructorBox{
+	padding-left:10px;
+}
+.instructorInternalBox{
+	padding:5px;
+}
+.instructorTopBox>.sapMFlexItem>.sapMLabelMaxWidth{
+	padding-top:40%;
+	
+}
+.infoOverflow{
+	text-overflow:ellipsis;
+}
+.linkCourseStyle{
+	padding-top:10px;
+}
+
+.htmlLine:after {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 2px dotted #5c5c5c;
+}
+
+.htmlLine {
+    width: 71%;
+    height: 300px;
+    margin-left: 21px;
+    border-left: 2px dashed #ccc;
+}
+.labelCourseLine{
+	width:10% !important;
+	height:100% !important;
+}
+.htmlLineLabel{
+    border-radius: 50%;
+    background: teal;
+    width: 25px;
+    height: 27px;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: #fff;
+    border-width: 10px;
+    -moz-box-shadow: 14px 2px 11px -9px rgba(0,0,0,0.75);
+    border: 1px solid #e4a832;
+}
+/*Branding and Theming*/
+
+.sapMShellBrandingBar {
+    background-color: #228194 !important;
+}
+sapMPageFooter .sapMIBar-CTX.sapMFooter-CTX.sapMTB {
+    border-top: 1px solid #208099;
+}
+html.sap-desktop .sapMIBar.sapMFooter-CTX {
+    background:radial-gradient(circle farthest-side at center bottom, #2e9f9f, rgba(18, 101, 132, 0.82) 133%) !important;
+    border-top: 1px solid rgba(100,114,123,0.96);
+}
+.sapMIBar-CTX.sapMFooter-CTX {
+    background-color: #20819a;
+}
+.objectPageDetail>.sapUxAPObjectPageHeaderIdentifier>.sapUxAPObjectPageHeaderIdentifierContainer>span{
+	color:#fff !important;
+}
+#contactUS{
+	/*visibility:hidden !important;*/
+}

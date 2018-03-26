@@ -1,0 +1,219 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:core="sap.ui.core" xmlns="sap.uxap" xmlns:m="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" controllerName="ui5cnLearningPath.controller.Detail">
+	<semantic:DetailPage id="detail" navButtonPress="onNavBack" showNavButton="{device>/system/phone}" title="{i18n>detailTitle}" busy="{detailView>/busy}" busyIndicatorDelay="{detailView>/delay}">
+		<ObjectPageLayout id="ObjectPageLayout">
+		<headerTitle>
+			<ObjectPageHeader 
+				class="objectPageDetail"
+				objectTitle="{dataCoursesDetail>/Title}"
+				objectSubtitle="{dataCoursesDetail>/SubTitle}">
+			<l:VerticalLayout>
+					<m:Button text="{i18n>pdfDownload}" icon="sap-icon://download"/>
+			</l:VerticalLayout>
+			</ObjectPageHeader>
+		</headerTitle>
+		<sections>
+			
+			<ObjectPageSection subSections="{dataCoursesDetail>/pathBasic}" title="Basics">
+				<subSections>
+					<ObjectPageSubSection title="{dataCoursesDetail>name}" mode="Expanded">
+								<m:HBox>
+								<m:VBox class="labelCourseLine">
+										<m:VBox class="htmlLine"> </m:VBox>
+										<m:Label class="htmlLineLabel" text="{dataCoursesDetail>snum}"></m:Label>
+										<m:VBox class="htmlLine"> </m:VBox>
+								</m:VBox>
+									<m:VBox class="sapUiSmallMargin">
+							
+									<f:SimpleForm minWidth="1024" 
+										editable="false" 
+										layout="ResponsiveGridLayout" >
+										<f:content>
+											<m:HBox class="firstImgHBox">
+											<m:VBox>
+													<m:Image class="imageCourse" src="{dataCoursesDetail>imageURL}" />
+													<m:HBox class="instructorTopBox">
+														<m:Label text="Instructor(s):"/>
+														<m:HBox class="instructorBox" items="{path:'dataCoursesDetail>Instructor', templateShareable:false }">
+															<m:items>
+																<m:VBox class="instructorInternalBox">
+																	<m:Image class="imageInstructor" src="{dataCoursesDetail>Image}" />
+																	<m:Text text="{dataCoursesDetail>name}"/>
+																</m:VBox>
+															</m:items>
+														</m:HBox>
+													</m:HBox>
+													<m:HBox>
+														<m:Label text="User Rating:"/>
+														<m:RatingIndicator maxValue="5"  class="ratingStar" iconSize="14px"   value="{dataCoursesDetail>User Rating}"/>
+													</m:HBox>
+													<m:HBox>
+														<m:Label text="UI5CN Internal Critic Rating: "/>
+														<m:RatingIndicator maxValue="5" class="ratingStar" iconSize="14px"   value="{dataCoursesDetail>UI5CN Internal Critic Rating}"/>
+													</m:HBox>
+													<m:HBox>
+														<m:Label text="Level: "/>
+														<m:Text text="{dataCoursesDetail>Level}"/>
+													</m:HBox>
+													<m:HBox>
+														<m:Label text="Course Duration: "/>
+														<m:Text text="{dataCoursesDetail>timeofCourseinHrs} hrs"/>
+													</m:HBox>
+													<m:HBox>
+														<m:Label text="Completion Duration: "/>
+														<m:Text text="{dataCoursesDetail>timetoComplete} hrs"/>
+													</m:HBox>
+													<m:HBox>
+														<m:Label text="Last Updated"/>
+														<m:Text text="{dataCoursesDetail>Last Updated}"/>
+													</m:HBox>
+													<m:HBox>
+														<m:Label text="Update Scheduled On: "/>
+														<m:Text text="{dataCoursesDetail>Next Update Scheduled}"/>
+													</m:HBox>
+													<m:HBox>
+														<m:Label text="Prereuisite(s):"/>
+														<m:VBox items="{path:'dataCoursesDetail>prereuisite', templateShareable:false }">
+															<m:items>
+																	<m:Text class="infoOverflow" text="✓ {dataCoursesDetail>}"/>
+															</m:items>
+														</m:VBox>
+													</m:HBox>
+													<m:HBox>
+														<m:Label text="Topics Covered:"/>
+														<m:VBox items="{path:'dataCoursesDetail>Topics Covered', templateShareable:false }">
+															<m:items>
+																	<m:Text class="infoOverflow" text="✓ {dataCoursesDetail>}"/>
+															</m:items>
+														</m:VBox>
+													</m:HBox>
+												</m:VBox>
+											</m:HBox>
+											<m:HBox class="firstTextHBoxdescBox" >
+												<m:VBox>
+													<m:Text text="{dataCoursesDetail>Desc}"/>
+													<m:Link class="linkCourseStyle" text="Visit Course" href="{dataCoursesDetail>link}"/>
+												</m:VBox>
+											</m:HBox>
+										</f:content>
+									</f:SimpleForm>
+								</m:VBox>
+								</m:HBox>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection subSections="{dataCoursesDetail>/ui5cnLearningPath/0/pathIntermediate}" title="Intermediate">
+				<subSections>
+					<ObjectPageSubSection title="{dataCoursesDetail>name}" mode="Expanded" id="Section2">
+								<m:VBox class="sapUiSmallMargin">
+									<f:SimpleForm minWidth="1024" maxContainerCols="2" editable="false" layout="ResponsiveGridLayout" title="Address" labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4" columnsL="1" columnsM="1">
+										<f:content>
+											<m:Text text="{dataCoursesDetail>name}"/>
+										</f:content>
+									</f:SimpleForm>
+								</m:VBox>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<!--ObjectPageSection subSections="{dataCoursesDetail>/ui5cnLearningPath/0/pathIntermediate}" title="Professional">
+				<subSections>
+					<ObjectPageSubSection title="Intermediate" mode="Expanded" id="Section3">
+						<blocks>
+							<ObjectPageLazyLoader stashed="true" id="Section3stashed">
+								<m:VBox class="sapUiSmallMargin">
+									<f:SimpleForm
+											minWidth="1024"
+											maxContainerCols="2"
+											editable="false"
+											layout="ResponsiveGridLayout"
+											title="Address"
+											labelSpanL="3"
+											labelSpanM="3"
+											emptySpanL="4"
+											emptySpanM="4"
+											columnsL="1"
+											columnsM="1">
+										<f:content>
+											<m:Label text="Name"/>
+											<m:Text text="{dataCoursesDetail>name}"/>
+										</f:content>
+									</f:SimpleForm>
+								</m:VBox>
+							</ObjectPageLazyLoader>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection subSections="{dataCoursesDetail>/ui5cnLearningPath/0/pathAdvace}" title="Advanced">
+				<subSections>
+					<ObjectPageSubSection title="Advanced" mode="Expanded" id="Section4">
+						<blocks>
+							<ObjectPageLazyLoader stashed="true" id="Section4stashed">
+								<m:VBox class="sapUiSmallMargin">
+									<f:SimpleForm
+											minWidth="1024"
+											maxContainerCols="2"
+											editable="false"
+											layout="ResponsiveGridLayout"
+											title="Address"
+											labelSpanL="3"
+											labelSpanM="3"
+											emptySpanL="4"
+											emptySpanM="4"
+											columnsL="1"
+											columnsM="1">
+										<f:content>
+											<m:Label text="Name"/>
+											<m:Text text="{dataCoursesDetail>name}"/>
+										</f:content>
+									</f:SimpleForm>
+								</m:VBox>
+							</ObjectPageLazyLoader>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection subSections="{dataCoursesDetail>/ui5cnLearningPath/0/upcoming}" title="Upcoming">
+				<subSections>
+					<ObjectPageSubSection title="Upcoming" mode="Expanded" id="Section5">
+						<blocks>
+							<ObjectPageLazyLoader stashed="true" id="Section5stashed">
+								<m:VBox class="sapUiSmallMargin">
+									<f:SimpleForm
+											minWidth="1024"
+											maxContainerCols="2"
+											editable="false"
+											layout="ResponsiveGridLayout"
+											title="Address"
+											labelSpanL="3"
+											labelSpanM="3"
+											emptySpanL="4"
+											emptySpanM="4"
+											columnsL="1"
+											columnsM="1">
+										<f:content>
+											<m:Label text="Name"/>
+											<m:Text text="{dataCoursesDetail>name}"/>
+										</f:content>
+									</f:SimpleForm>
+								</m:VBox>
+							</ObjectPageLazyLoader>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection-->
+		</sections>
+	</ObjectPageLayout>
+		<semantic:customShareMenuContent>
+			<m:Button 
+			text="{i18n>contact}" 
+			icon="sap-icon://email"
+			press="onSuggestionPress" />
+		</semantic:customShareMenuContent>
+	<semantic:content>
+	    <m:Image width="140px" height="140px" id="__image1"/>
+	    <m:Image width="140px" height="140px" id="__image2"/>
+	    <m:Image width="140px" height="140px" id="__image3"/>
+	    <m:Image width="140px" height="140px" id="__image5"/>
+	</semantic:content>
+	</semantic:DetailPage>
+</mvc:View>
