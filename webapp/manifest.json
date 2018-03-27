@@ -102,6 +102,13 @@
 						"master",
 						"object"
 					]
+				},
+				{
+					"pattern": "Customers/",
+					"name": "detailsNav",
+					"target": [
+						"object"
+					]
 				}
 			],
 			"targets": {
@@ -116,6 +123,7 @@
 					"viewId": "detail",
 					"viewLevel": 2
 				}
+				
 			}
 		}
 	}

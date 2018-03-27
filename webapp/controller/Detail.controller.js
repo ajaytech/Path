@@ -46,8 +46,15 @@ sap.ui.define([
 		onAfterRendering: function() {
 				sap.ui.core.BusyIndicator.hide();
 				$(".loader-wrapper").remove();
+				sap.m.MessageToast.show("UI5CN PATH Beta Looks Better in Desktop/Tablet");
 
-			}
+			},
+		onNavBack : function(){
+			sap.ui.core.BusyIndicator.show();
+			sap.ui.core.UIComponent.getRouterFor(this).navTo("master");
+			sap.ui.core.BusyIndicator.hide();
+		}
+		
 
 		/**
 		 * Called when the Controller is destroyed. Use this one to free resources and finalize activities.

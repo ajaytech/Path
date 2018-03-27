@@ -6,14 +6,15 @@
 				class="objectPageDetail"
 				objectTitle="{dataCoursesDetail>/Title}"
 				objectSubtitle="{dataCoursesDetail>/SubTitle}">
-			<l:VerticalLayout>
-					<m:Button text="{i18n>pdfDownload}" icon="sap-icon://download"/>
+			<l:VerticalLayout class="avgRatingTopStarObj">
+						<m:Label class="avgRatingTop" text="Recommendation Rating"/>
+						<m:RatingIndicator maxValue="5"  class="ratingStar" iconSize="14px"   value="{dataCoursesDetail>/Recommendation Rating}"/>
 			</l:VerticalLayout>
 			</ObjectPageHeader>
 		</headerTitle>
 		<sections>
 			
-			<ObjectPageSection subSections="{dataCoursesDetail>/pathBasic}" title="Basics">
+			<ObjectPageSection subSections="{dataCoursesDetail>/pathBasic}" title="PATH">
 				<subSections>
 					<ObjectPageSubSection title="{dataCoursesDetail>name}" mode="Expanded">
 								<m:HBox>
@@ -71,8 +72,8 @@
 														<m:Text text="{dataCoursesDetail>Next Update Scheduled}"/>
 													</m:HBox>
 													<m:HBox>
-														<m:Label text="Prereuisite(s):"/>
-														<m:VBox items="{path:'dataCoursesDetail>prereuisite', templateShareable:false }">
+														<m:Label text="Prerequisite"/>
+														<m:VBox items="{path:'dataCoursesDetail>Prerequisite', templateShareable:false }">
 															<m:items>
 																	<m:Text class="infoOverflow" text="✓ {dataCoursesDetail>}"/>
 															</m:items>
@@ -114,106 +115,16 @@
 					</ObjectPageSubSection>
 				</subSections>
 			</ObjectPageSection>
-			<!--ObjectPageSection subSections="{dataCoursesDetail>/ui5cnLearningPath/0/pathIntermediate}" title="Professional">
-				<subSections>
-					<ObjectPageSubSection title="Intermediate" mode="Expanded" id="Section3">
-						<blocks>
-							<ObjectPageLazyLoader stashed="true" id="Section3stashed">
-								<m:VBox class="sapUiSmallMargin">
-									<f:SimpleForm
-											minWidth="1024"
-											maxContainerCols="2"
-											editable="false"
-											layout="ResponsiveGridLayout"
-											title="Address"
-											labelSpanL="3"
-											labelSpanM="3"
-											emptySpanL="4"
-											emptySpanM="4"
-											columnsL="1"
-											columnsM="1">
-										<f:content>
-											<m:Label text="Name"/>
-											<m:Text text="{dataCoursesDetail>name}"/>
-										</f:content>
-									</f:SimpleForm>
-								</m:VBox>
-							</ObjectPageLazyLoader>
-						</blocks>
-					</ObjectPageSubSection>
-				</subSections>
-			</ObjectPageSection>
-			<ObjectPageSection subSections="{dataCoursesDetail>/ui5cnLearningPath/0/pathAdvace}" title="Advanced">
-				<subSections>
-					<ObjectPageSubSection title="Advanced" mode="Expanded" id="Section4">
-						<blocks>
-							<ObjectPageLazyLoader stashed="true" id="Section4stashed">
-								<m:VBox class="sapUiSmallMargin">
-									<f:SimpleForm
-											minWidth="1024"
-											maxContainerCols="2"
-											editable="false"
-											layout="ResponsiveGridLayout"
-											title="Address"
-											labelSpanL="3"
-											labelSpanM="3"
-											emptySpanL="4"
-											emptySpanM="4"
-											columnsL="1"
-											columnsM="1">
-										<f:content>
-											<m:Label text="Name"/>
-											<m:Text text="{dataCoursesDetail>name}"/>
-										</f:content>
-									</f:SimpleForm>
-								</m:VBox>
-							</ObjectPageLazyLoader>
-						</blocks>
-					</ObjectPageSubSection>
-				</subSections>
-			</ObjectPageSection>
-			<ObjectPageSection subSections="{dataCoursesDetail>/ui5cnLearningPath/0/upcoming}" title="Upcoming">
-				<subSections>
-					<ObjectPageSubSection title="Upcoming" mode="Expanded" id="Section5">
-						<blocks>
-							<ObjectPageLazyLoader stashed="true" id="Section5stashed">
-								<m:VBox class="sapUiSmallMargin">
-									<f:SimpleForm
-											minWidth="1024"
-											maxContainerCols="2"
-											editable="false"
-											layout="ResponsiveGridLayout"
-											title="Address"
-											labelSpanL="3"
-											labelSpanM="3"
-											emptySpanL="4"
-											emptySpanM="4"
-											columnsL="1"
-											columnsM="1">
-										<f:content>
-											<m:Label text="Name"/>
-											<m:Text text="{dataCoursesDetail>name}"/>
-										</f:content>
-									</f:SimpleForm>
-								</m:VBox>
-							</ObjectPageLazyLoader>
-						</blocks>
-					</ObjectPageSubSection>
-				</subSections>
-			</ObjectPageSection-->
 		</sections>
 	</ObjectPageLayout>
+	
 		<semantic:customShareMenuContent>
-			<m:Button 
+		<m:Button 
 			text="{i18n>contact}" 
 			icon="sap-icon://email"
 			press="onSuggestionPress" />
 		</semantic:customShareMenuContent>
-	<semantic:content>
-	    <m:Image width="140px" height="140px" id="__image1"/>
-	    <m:Image width="140px" height="140px" id="__image2"/>
-	    <m:Image width="140px" height="140px" id="__image3"/>
-	    <m:Image width="140px" height="140px" id="__image5"/>
-	</semantic:content>
+		
 	</semantic:DetailPage>
+	
 </mvc:View>

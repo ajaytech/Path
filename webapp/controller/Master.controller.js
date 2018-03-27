@@ -27,7 +27,8 @@ sap.ui.define([
 			 oDetailModel = oDetailView.getModel("dataCoursesDetail"),
 			 oMasterView = this.getView(),
 			 oMasterModel = oMasterView.getModel("dataCourses"),
-			 sTitleClicked = oEvt.getSource().getSelectedItem().getProperty("title"),
+			 // In mobile we have getTitle in Desktop getSelectedItem
+			 sTitleClicked = typeof oEvt.getSource().getSelectedItem == 'function'?oEvt.getSource().getSelectedItem().getProperty("title"):oEvt.getSource().getTitle(),
 			 oGlobalModelData = oMasterModel.getData()["ui5cnLearningPath"],
 			 newModelData;
 			for (var i = 0; i < oGlobalModelData.length; i++) {
@@ -39,6 +40,8 @@ sap.ui.define([
 
 			}
 			this._oList = this.byId("list"); 
+			
+			sap.ui.core.UIComponent.getRouterFor(this).navTo("detailsNav");
 			sap.ui.core.BusyIndicator.hide();
 
 		},

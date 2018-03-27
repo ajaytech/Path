@@ -44,8 +44,10 @@
 					</ObjectListItem>
 				</items>
 			</List>
-		</semantic:content>
-
+		
+	
+	</semantic:content>
+	
 	</semantic:MasterPage>
 
 </mvc:View>
