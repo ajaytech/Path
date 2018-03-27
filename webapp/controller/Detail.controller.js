@@ -33,8 +33,8 @@ sap.ui.define([
 			
 			onSuggestionPress: function(oEvt){
 			//jQuery code for Internal CRM integration
-				$('#contactUS').click();
-				sap.m.MessageToast.show("Make Sure the Popup is Enabled, Fill the Form, We Will Act on It !");
+				document.getElementById("ui5cnContact").click();
+				sap.m.MessageToast.show("Make Sure the Popup is Enabled!");
 				
 			},
 
@@ -45,6 +45,7 @@ sap.ui.define([
 		 */
 		onAfterRendering: function() {
 				sap.ui.core.BusyIndicator.hide();
+				$(".loader-wrapper").remove();
 
 			}
 
