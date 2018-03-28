@@ -96,17 +96,10 @@
 					]
 				},
 				{
-					"pattern": "Customers/{objectId}",
-					"name": "object",
-					"target": [
-						"master",
-						"object"
-					]
-				},
-				{
-					"pattern": "Customers/",
+					"pattern": "Courses/{title}",
 					"name": "detailsNav",
 					"target": [
+						"master",
 						"object"
 					]
 				}

@@ -1,8 +1,9 @@
 sap.ui.define([
 		"sap/ui/core/UIComponent",
 		"sap/ui/Device",
-		"ui5cnLearningPath/model/models"
-	], function (UIComponent, Device, models) {
+		"ui5cnLearningPath/model/models",
+		"sap/ui/model/json/JSONModel"
+	], function (UIComponent, Device, models,JSONModel) {
 		"use strict";
 
 		return UIComponent.extend("ui5cnLearningPath.Component", {
@@ -18,14 +19,27 @@ sap.ui.define([
 			 * @override
 			 */
 			init : function () {
-				// set the device model
-				this.setModel(models.createDeviceModel(), "device");
+				
+			// set the device model
+			//Create the model and load data from the local JSON file
+			/*var oModel = new JSONModel("./model/dataMain.json",false);
+			oModel.setDefaultBindingMode("OneWay");
+			
+			oModel.attachEventOnce(function() {
+                console.log("oModel: Metadata loaded OK");
+            }, this);
 
-				// call the base component's init function and create the App view
-				UIComponent.prototype.init.apply(this, arguments);
-
-				// create the views based on the url/hash
-				this.getRouter().initialize();
+			// set the device model
+			this.setModel(oModel, "dataCourses");*/
+			
+			this.setModel(models.createDeviceModel(), "device");
+			
+			// call the base component's init function and create the App view
+			UIComponent.prototype.init.apply(this, arguments);
+			
+			
+			// create the views based on the url/hash
+			this.getRouter().initialize();
 			},
 
 			/**

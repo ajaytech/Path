@@ -39,9 +39,10 @@ sap.ui.define([
 				}
 
 			}
-			this._oList = this.byId("list"); 
-			
-			sap.ui.core.UIComponent.getRouterFor(this).navTo("detailsNav");
+			this._oList = this.byId("list");
+			sap.ui.core.UIComponent.getRouterFor(this).navTo("detailsNav",{
+				title: "RouteNav"
+			});
 			sap.ui.core.BusyIndicator.hide();
 
 		},
