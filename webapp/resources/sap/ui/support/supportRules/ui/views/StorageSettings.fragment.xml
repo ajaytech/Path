@@ -1,0 +1,45 @@
+<core:FragmentDefinition
+		xmlns="sap.m"
+		xmlns:l="sap.ui.layout"
+		xmlns:core="sap.ui.core">
+	<Popover
+			title="Settings"
+			contentMinWidth="250px"
+			class="sapUiContentPadding"
+			placement="Bottom">
+		<content>
+			<FlexBox
+			alignContent="Center"
+			justifyContent="Center">
+				<l:VerticalLayout>
+					<l:HorizontalLayout>
+						<CheckBox text="I agree to use local storage persistency for:"
+							  select= "onPersistedSettingSelect"
+							  selected="{/persistingSettings}"
+						/>
+					</l:HorizontalLayout>
+					<FlexBox
+							alignContent="Center"
+							justifyContent="Start">
+						<l:VerticalLayout class="customSettingsPadding">
+							<Text text="  Execution Scope"></Text>
+							<Text text="  Temporary Rules"></Text>
+							<Button text="Delete Persisted Data" press="deletePersistedData"></Button>
+
+							<l:HorizontalLayout class="customSettingsInfo">
+							<Text text="Support Assistant Location : \t" renderWhitespace="true"></Text>
+							<Link text="Copy" href="#" press="copySupportAssistantOriginToClipboard"></Link>
+							</l:HorizontalLayout>
+
+							<Text text="{/supportAssistantOrigin}"></Text>
+
+							<l:HorizontalLayout>
+							<Text text="Support Assistant Version : {/supportAssistantVersion}" renderWhitespace="true"></Text>
+							</l:HorizontalLayout>
+						</l:VerticalLayout>
+					</FlexBox>
+				</l:VerticalLayout>
+			</FlexBox>
+		</content>
+	</Popover>
+</core:FragmentDefinition>

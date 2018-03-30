@@ -1,0 +1,170 @@
+/* NOTE: This file was generated as an optimized version of "library.source.less" for the Theme Designer. */
+
+/*!
+ * UI development toolkit for HTML5 (OpenUI5)
+ * (c) Copyright 2009-2017 SAP SE or an SAP affiliate company.
+ * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+ */
+
+@import "../sap_belize/library.less";
+@import "../../../../../Base/baseLib/sap_belize_plus/base.less"; /* ORIGINAL IMPORT PATH: "../../../../sap/ui/core/themes/sap_belize_plus/base.less" */
+
+@import "../../../../sap/ui/core/themes/sap_belize_plus/global.less";
+
+/* START "AnchorBar.less" */
+/* =================================== */
+/* CSS for control sap.uxap/AnchorBar  */
+/* Belize Plus theme                   */
+/* =================================== */
+
+.sapUshellShell {
+	.sapUxAPAnchorBar.sapMTB {
+		background: fade(@sapUiObjectHeaderBackground, 60%);
+	}
+
+	.sapUxAPAnchorBar.sapUxAPAnchorBarScrollLeft .anchorBarArrowLeft,
+	html[dir=rtl] .sapUxAPAnchorBar.sapUxAPAnchorBarScrollRight .anchorBarArrowRight,
+	.sapUxAPAnchorBar.sapUxAPAnchorBarScrollRight .anchorBarArrowRight,
+	html[dir=rtl] .sapUxAPAnchorBar.sapUxAPAnchorBarScrollLeft .anchorBarArrowLeft {
+		background: none;
+	}
+}
+
+.sapContrastPlus {
+	.sapUxAPAnchorBar .sapUxAPAnchorBarButton.sapUxAPAnchorBarButtonSelected .sapMBtnContent,
+	.sapUxAPAnchorBar .sapUxAPAnchorBarButton.sapUxAPAnchorBarButtonSelected .sapMBtnIcon,
+	.sapUxAPAnchorBar .sapUxAPAnchorBarButton .sapMBtnInner.sapMBtnTransparent.sapMBtnHoverable:hover .sapMBtnContent,
+	.sapUxAPAnchorBar .sapUxAPAnchorBarButton.sapMBtn:hover > .sapMBtnHoverable .sapMBtnContent,
+	.sapUxAPAnchorBar .sapUxAPAnchorBarButton.sapMBtn:hover > .sapMBtnHoverable .sapMBtnIcon {
+		color: lighten(@sapUiGroupTitleTextColor, 20);
+	}
+}
+/* END "AnchorBar.less" */
+
+/* START "ObjectPageHeader.less" */
+/* ========================================== */
+/* CSS for control sap.uxap/ObjectPageHeader  */
+/* Belize Plus theme                          */
+/* ========================================== */
+
+.sapUshellShell {
+	.sapUxAPObjectPageHeaderIdentifier {
+		background: fade(@sapUiObjectHeaderBackground, 60%);
+	}
+}
+/* END "ObjectPageHeader.less" */
+
+/* START "ObjectPageHeaderContent.less" */
+/* ================================================= */
+/* CSS for control sap.uxap/ObjectPageHeaderContent  */
+/* Belize Plus theme                                 */
+/* ================================================= */
+
+.sapUshellShell {
+	.sapUxAPObjectPageHeaderContentDesign-Light,
+	.sapUxAPObjectPageHeaderContentDesign-Dark {
+		background: fade(@sapUiObjectHeaderBackground, 60%);
+	}
+}
+/* END "ObjectPageHeaderContent.less" */
+
+/* START "ObjectPageLayout.less" */
+/* ========================================== */
+/* CSS for control sap.uxap/ObjectPageLayout  */
+/* Belize Plus theme                          */
+/* ========================================== */
+
+
+/* ======================================== */
+/* Title                                    */
+/* ======================================== */
+.sapUxAPObjectPageLayout.sapUxAPObjectPageLayoutTitleClickEnabled:not(.sapUxAPObjectPageLayoutHeaderPinned) .sapFDynamicPageTitle:hover {
+	background-color: darken(@sapUiObjectHeaderBackground, 3);
+}
+
+
+/* ======================================== */
+/* Title and Toggle Header Visual Indicator */
+/* ======================================== */
+.sapUxAPObjectPageLayout {
+  &.sapUxAPObjectPageLayoutTitleClickEnabled:not(.sapUxAPObjectPageLayoutHeaderPinned) {
+    .sapFDynamicPageTitle:hover,
+    &.sapUxAPObjectPageLayoutTitleForceHovered .sapFDynamicPageTitle {
+      background-color: darken(@sapUiObjectHeaderBackground, 3);
+    }
+
+    &.sapUxAPObjectPageLayoutTitleForceHovered {
+      .sapFDynamicPageToggleHeaderIndicator {
+        .sapMBtnInner.sapMBtnHoverable {
+          background-color: darken(@sapUiObjectHeaderBorderColor, 3);
+        }
+      }
+    }
+  }
+
+  // Toggle Header Visual Indicator
+  .sapFDynamicPageToggleHeaderIndicator.sapMBtn {
+
+    // normal state
+    & > .sapMBtnInner {
+      border: none;
+      background-color: @sapUiObjectHeaderBorderColor;
+    }
+
+    // hover state
+    &:hover > .sapMBtnInner.sapMBtnHoverable {
+      background-color: darken(@sapUiObjectHeaderBorderColor, 3);
+    }
+
+    // active state
+    &:focus > .sapMBtnInner.sapMFocusable.sapMBtnActive {
+      background: @sapUiSelected;
+      color: @sapUiButtonActiveBackground;
+    }
+  }
+}
+
+.sapUshellShell {
+  .sapUxAPObjectPageLayout {
+    &.sapUxAPObjectPageLayoutTitleClickEnabled:not(.sapUxAPObjectPageLayoutHeaderPinned) {
+      .sapFDynamicPageTitle:hover,
+      &.sapUxAPObjectPageLayoutTitleForceHovered .sapFDynamicPageTitle {
+        background-color: fade(@sapUiObjectHeaderBackground, 75%);
+      }
+    }
+  }
+}
+/* END "ObjectPageLayout.less" */
+
+/* START "ObjectPageSection.less" */
+/* =========================================== */
+/* CSS for control sap.uxap/ObjectPageSection  */
+/* Belize Plus theme                           */
+/* =========================================== */
+
+@_sap_uxap_ObjectPageSection_HeaderBorderColor: darken(@sapUiListBorderColor, 5);
+@_sap_uxap_ObjectPageSection_TitleBorderColor: lighten(@sapUiListBorderColor, 30);
+/* END "ObjectPageSection.less" */
+
+/* START "ObjectPageSubSection.less" */
+/* ============================================== */
+/* CSS for control sap.uxap/ObjectPageSubSection  */
+/* Belize Plus theme                              */
+/* ============================================== */
+
+@_sap_uxap_ObjectPageSubSection_BorderColor: darken(@sapUiListBorderColor, 5);
+/* END "ObjectPageSubSection.less" */
+
+/* START "ObjectPageDynamicHeaderContent.less" */
+/* ================================================= */
+/* CSS for control sap.uxap/ObjectPageDynamicHeaderContent  */
+/* Base theme                                        */
+/* ================================================= */
+
+.sapUxAPObjectPageHeaderDetails .sapContrastPlus.sapUxAPObjectPageHeaderDetails > .sapFDynamicPageHeader.sapFDynamicPageHeaderWithContent,
+.sapUxAPObjectPageHeaderDetails .sapContrastPlus.sapFDynamicPageHeader.sapFDynamicPageHeaderWithContent,
+.sapContrastPlus .sapUxAPObjectPageHeaderDetails .sapFDynamicPageHeader.sapFDynamicPageHeaderWithContent{
+    box-shadow: none;
+}
+
+/* END "ObjectPageDynamicHeaderContent.less" */

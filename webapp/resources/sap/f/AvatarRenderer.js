@@ -1,0 +1,6 @@
+/*!
+ * UI development toolkit for HTML5 (OpenUI5)
+ * (c) Copyright 2009-2017 SAP SE or an SAP affiliate company.
+ * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+ */
+sap.ui.define(["sap/f/library","jquery.sap.global"],function(l,q){"use strict";var A=l.AvatarSize;var a=l.AvatarType;var b={};b.render=function(r,o){var i=o.getInitials(),s=o._getActualDisplayType(),d=o.getDisplaySize(),D=o.getDisplayShape(),I=o.getImageFitType(),c=o.getCustomDisplaySize(),C=o.getCustomFontSize(),S=o.getSrc(),e="sapFAvatar";r.write("<span");r.writeControlData(o);r.addClass(e);r.addClass(e+d);r.addClass(e+s);r.addClass(e+D);if(o.hasListeners("press")){r.addClass("sapMPointer");r.addClass("sapFAvatarFocusable");r.writeAccessibilityState(o,{"role":"button"});r.writeAttribute("tabIndex",0);}if(s===a.Image){r.addClass(e+s+I);r.addStyle("background-image","url('"+q.sap.encodeHTML(S)+"')");}if(d===A.Custom){r.addStyle("width",c);r.addStyle("height",c);r.addStyle("font-size",C);}r.writeClasses();r.writeStyles();r.write(">");if(s===a.Icon){r.renderControl(o._getIcon());}else if(s===a.Initials){r.write("<span");r.addClass(e+"InitialsHolder");r.writeClasses();r.write(">");r.writeEscaped(i);r.write("</span>");}if(o._fnLightBoxOpen){r.write("<span class=\"sapFAvatarMagnifyingGlass\"></span>");}r.write("</span>");};return b;},true);
