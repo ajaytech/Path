@@ -1,12 +1,13 @@
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/Filter",
-	"sap/ui/model/FilterOperator"
-], function(Controller, Filter, FilterOperator) {
+	"sap/ui/model/FilterOperator",
+	"ui5cnLearningPath/model/formatter"
+], function(Controller, Filter, FilterOperator, formatter) {
 	"use strict";
 
 	return Controller.extend("ui5cnLearningPath.controller.Master", {
-
+		formatter: formatter,
 		onInit: function(oEvt) {
 			sap.ui.core.BusyIndicator.show();
 			sap.ui.getCore().setModel(this.getView(), "viewMaster");
@@ -16,32 +17,14 @@ sap.ui.define([
 				aSearch: []
 			};
 			this._oList = this.byId("list");
-
 		},
 
 		onSelectionChange: function(oEvt) {
-
 			sap.ui.core.BusyIndicator.show();
-
-			var oDetailView = sap.ui.getCore().getModel("viewDetails"),
-			 oDetailModel = oDetailView.getModel("dataCoursesDetail"),
-			 oMasterView = this.getView(),
-			 oMasterModel = oMasterView.getModel("dataCourses"),
-			 // In mobile we have getTitle in Desktop getSelectedItem
-			 sTitleClicked = typeof oEvt.getSource().getSelectedItem == 'function'?oEvt.getSource().getSelectedItem().getProperty("title"):oEvt.getSource().getTitle(),
-			 oGlobalModelData = oMasterModel.getData()["ui5cnLearningPath"],
-			 newModelData;
-			for (var i = 0; i < oGlobalModelData.length; i++) {
-				if (oGlobalModelData[i]["Title"] === sTitleClicked) {
-					newModelData = oGlobalModelData[i];
-					oDetailModel.setData(newModelData);
-					break;
-				}
-
-			}
+			var sTitleClicked = typeof oEvt.getSource().getSelectedItem === 'function'?oEvt.getSource().getSelectedItem().getProperty("title"):oEvt.getSource().getTitle();
 			this._oList = this.byId("list");
 			sap.ui.core.UIComponent.getRouterFor(this).navTo("detailsNav",{
-				title: "RouteNav"
+				title: sTitleClicked
 			});
 			sap.ui.core.BusyIndicator.hide();
 

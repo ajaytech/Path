@@ -1,13 +1,5 @@
 /* Enter your custom styles here */
-.sapUxAPObjectPageHeaderIdentifier{
-    background: radial-gradient(circle farthest-side at center bottom, #0e8686, rgba(0,98,135,0.82) 133%) !important;
-    color:#fff !important;
 
-}
-
-.sapUxAPObjectPageHeaderIdentifier .sapUxAPObjectPageHeaderIdentifierContainer .sapUxAPObjectPageHeaderIdentifierTitle{
-	color:#fff !important;
-}
 .imageCourse{
 	width:250px !important;
 	height:140px !important;
@@ -21,12 +13,7 @@
 .firstTextHBoxdescBox{
 	width:100% !important;
 }
-.sapUiRespGridMedia-Std-Tablet.sapUiRespGridHSpace0>.sapUiRespGridSpanM6:nth-child(1){
-		width:45% !important;
-}
-.sapUiRespGridMedia-Std-Tablet.sapUiRespGridHSpace0>.sapUiRespGridSpanM6:nth-child(2){
-		width:55% !important;
-}
+
 .firstImgHBox>.sapMFlexBox>.sapMFlexBox>.sapMFlexItem{
 	padding:5px;
 }
@@ -111,26 +98,6 @@
 .avgRatingTop{
 	color: #FFEB3B;
 }
-
-
-/*Branding and Theming changed*/
-
-.sapMShellBrandingBar {
-    background-color: #228194 !important;
-}
-sapMPageFooter .sapMIBar-CTX.sapMFooter-CTX.sapMTB {
-    border-top: 1px solid #208099;
-}
-html.sap-desktop .sapMIBar.sapMFooter-CTX {
-    background:radial-gradient(circle farthest-side at center bottom, #2e9f9f, rgba(18, 101, 132, 0.82) 133%) !important;
-    border-top: 1px solid rgba(100,114,123,0.96);
-}
-.sapMIBar-CTX.sapMFooter-CTX {
-    background-color: #20819a;
-}
-.objectPageDetail>.sapUxAPObjectPageHeaderIdentifier>.sapUxAPObjectPageHeaderIdentifierContainer>span{
-	color:#fff !important;
-}
 #contactUS{
 	/*visibility:hidden !important;*/
 }
@@ -145,6 +112,99 @@ html.sap-desktop .sapMIBar.sapMFooter-CTX {
     color: #fff;
     border-top: 0.05rem solid #ffffff;
 }
+
+.lableUpdateReq>div>textarea{
+	width: 340px !important;
+    height: 200px !important;
+    border: none !important;
+}
+.labelCourseUpdateReq{
+	
+}
+
+div[data-myCSSProp=bundleCourse]>span{
+	font-size: 10px !important;
+    display: inline-block;
+    background: #FF9800;
+    color: #fff;
+    padding: 0.1rem 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    color: #f6f6f6 !important;
+    transition: all 0.3s ease;
+    margin-bottom: 0;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    line-height: 15px !important;
+	
+}
+div[data-myCSSProp=onGoing]>span{
+	font-size: 10px !important;
+    display: inline-block;
+    background: #2ed3c4;
+    color: #fff;
+    padding: 0.1rem 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    color: #f6f6f6 !important;
+    transition: all 0.3s ease;
+    margin-bottom: 0;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    line-height: 15px !important;
+	
+}
+div[data-myCSSProp=onGoingUpdate]>span{
+	font-size: 10px !important;
+    display: inline-block;
+    background: #00BCD4;
+    color: #fff;
+    padding: 0.1rem 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    color: #f6f6f6 !important;
+    transition: all 0.3s ease;
+    margin-bottom: 0;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    line-height: 15px !important;
+	
+}
+div[data-myCSSProp=projectCourse]>span{
+	font-size: 10px !important;
+    display: inline-block;
+    background: #ff776d;
+    color: #fff;
+    padding: 0.1rem 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    color: #f6f6f6 !important;
+    transition: all 0.3s ease;
+    margin-bottom: 0;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    line-height: 15px !important;
+	
+}
+/*Start of Branding and Theming changed* for Standard Lib CSS*/
+
+.sapMShellBrandingBar {
+    background-color: #228194 !important;
+}
+.sapMPageFooter .sapMIBar-CTX.sapMFooter-CTX.sapMTB {
+    border-top: 1px solid #208099;
+}
+html.sap-desktop .sapMIBar.sapMFooter-CTX {
+    background:radial-gradient(circle farthest-side at center bottom, #2e9f9f, rgba(18, 101, 132, 0.82) 133%) !important;
+    border-top: 1px solid rgba(100,114,123,0.96);
+}
+.sapMIBar-CTX.sapMFooter-CTX {
+    background-color: #20819a;
+}
+.objectPageDetail>.sapUxAPObjectPageHeaderIdentifier>.sapUxAPObjectPageHeaderIdentifierContainer>span{
+	color:#fff !important;
+}
+
 .sapMText{
 	font-size: 1rem !important;
     line-height: 21px !important;
@@ -165,6 +225,39 @@ html.sap-desktop .sapMIBar.sapMFooter-CTX {
 .sapUiBody {
     height: 97% !important;
 }
+.sapUiSizeCompact .sapUxAPObjectPageHeaderIdentifier {
+    min-height: 2rem;
+    height: 7rem !important;
+    padding-top: 0rem !important;
+    padding-left: 1rem !important;
+}
+.sapMPageFooter .sapMIBar {
+    height: 2rem !important;
+}
+.sapUxAPObjectPageHeaderIdentifier .sapUxAPObjectPageHeaderIdentifierContainer{
+	padding-top: 0.5rem !important;
+}
+.sapUxAPObjectPageHeaderIdentifier{
+    background: radial-gradient(circle farthest-side at center bottom, #0e8686, rgba(0,98,135,0.82) 133%) !important;
+    color:#fff !important;
+
+}
+.sapUiRespGridMedia-Std-Tablet.sapUiRespGridHSpace0>.sapUiRespGridSpanM6:nth-child(1){
+		width:45% !important;
+}
+.sapUiRespGridMedia-Std-Tablet.sapUiRespGridHSpace0>.sapUiRespGridSpanM6:nth-child(2){
+		width:55% !important;
+}
+.sapUxAPObjectPageHeaderIdentifier .sapUxAPObjectPageHeaderIdentifierContainer .sapUxAPObjectPageHeaderIdentifierTitle{
+	color:#fff !important;
+}
+.sapMPopover.sapUxAPAnchorBarPopover{
+	padding-left: 12px;
+    z-index:10000 !important;
+}
+.sapMPopover .sapMPopoverCont{
+	 z-index:10000 !important;
+}
 @media only screen and (min-width: 400px and max-width: 550px) {
     .sapUiBody {
     	height: 95% !important;
@@ -175,3 +268,4 @@ html.sap-desktop .sapMIBar.sapMFooter-CTX {
     	height: 94% !important;
 	}
 }
+/*End of Branding and Theming changed* for Standard Lib CSS*/

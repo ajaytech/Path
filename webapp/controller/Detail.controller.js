@@ -25,13 +25,66 @@ sap.ui.define([
 		//Handling direct routing to a particular path
 		_onObjectMatched : function(oEvt){
 			var aArg = oEvt.getParameter("arguments");
-			
-			if(aArg.title !== "RouteNav" || aArg.title !== "SAPUI5 End-to-End Consultant" ){
+			var oDetailView = sap.ui.getCore().getModel("viewDetails"),
+			 oDetailModel = oDetailView.getModel("dataCoursesDetail"),
+			 
+			 oMasterView = sap.ui.getCore().getModel("viewMaster"),
+			 oMasterModel = oMasterView.getModel("dataCourses"),
+			 oGlobalModelData = oMasterModel.getData()["ui5cnLearningPath"],
+			 newModelData;
+			 if(aArg.title == undefined){
+			 	sap.m.MessageToast.show("Route not found, Falling to Default");
+			 	return;
+			 }
+			 if(oGlobalModelData === undefined){
+			 	this.callPromiseToBindOnRoute(aArg.title);
+			 	return;
+			 }
 			//	UI5 Routes Not Implemented In PATH Beta
 			//We can move the onSelect Master Controller function to here
-			}
 			
+			for (var i = 0; i < oGlobalModelData.length; i++) {
+				if (oGlobalModelData[i]["Title"] === aArg.title) {
+					newModelData = oGlobalModelData[i];
+					oDetailModel.setData(newModelData);
+					break;
+				}
+
+				}
+			sap.ui.core.BusyIndicator.hide();
 			
+		},
+		callPromiseToBindOnRoute : function(sTitle){
+			
+			var dataLoaded = new Promise(function (resolve, reject) {
+				var oModel = new sap.ui.model.json.JSONModel();
+				
+				oModel.loadData("./model/dataMain.json",{},false);
+				if(oModel.getData()["ui5cnLearningPath"]){
+						return resolve([oModel.getData()["ui5cnLearningPath"],sTitle]);
+				}else{
+					return reject({});
+				}
+			  });
+			  
+			dataLoaded.then(function(oData){
+				var newModelData;
+				for (var i = 0; i < oData[0].length; i++) {
+					if (oData[i]["Title"] === oData[1]) {
+						var oModel = sap.ui.getCore().getModel("viewDetails").getModel("ui5cnLearningPath").setProperty("/busy",true)
+							oModel.setData(newModelData);
+						break;
+					}
+				}
+				sap.ui.core.BusyIndicator.hide();
+				$(".loader-wrapper").remove();
+				
+				}).catch(function(){
+					sap.m.MessageToast.show("Error in Data Load, Clear the Catch and Reload");
+					sap.ui.core.BusyIndicator.hide();
+					$(".loader-wrapper").remove();
+					
+				});
 		},
 			
 		/**
@@ -87,8 +140,12 @@ sap.ui.define([
 			  });
 			  
 			dataLoaded.then(function(oData){
+				var oModel = sap.ui.getCore().getModel("viewDetails").getModel("dataCoursesDetail");
+				if(oModel!==undefined) 
+				{
+					oModel.setProperty("/busy",true);
+				}
 				sap.ui.getCore().getModel("viewDetails").setModel(new sap.ui.model.json.JSONModel(oData),"dataCoursesDetail");
-				
 				sap.ui.core.BusyIndicator.hide();
 				$(".loader-wrapper").remove();
 				
@@ -98,8 +155,6 @@ sap.ui.define([
 					$(".loader-wrapper").remove();
 					
 				});
-				
-			
 			//removing the loading message and loader
 			
 			

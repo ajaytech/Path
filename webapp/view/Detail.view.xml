@@ -13,8 +13,7 @@
 			</ObjectPageHeader>
 		</headerTitle>
 		<sections>
-			
-			<ObjectPageSection subSections="{dataCoursesDetail>/pathBasic}" title="PATH">
+			<ObjectPageSection subSections="{dataCoursesDetail>/pathBasic}" title="{i18n>PATHTitle}">
 				<subSections>
 					<ObjectPageSubSection title="{dataCoursesDetail>name}" mode="Expanded">
 								<m:HBox>
@@ -92,7 +91,7 @@
 											<m:HBox class="firstTextHBoxdescBox" >
 												<m:VBox>
 													<m:Text text="{dataCoursesDetail>Desc}"/>
-													<m:Link class="linkCourseStyle" text="Visit Course" href="{dataCoursesDetail>link}"/>
+													<m:Link target="_blank" class="linkCourseStyle" text="Visit Course" href="{dataCoursesDetail>link}"/>
 												</m:VBox>
 											</m:HBox>
 										</f:content>
@@ -102,16 +101,15 @@
 					</ObjectPageSubSection>
 				</subSections>
 			</ObjectPageSection>
-			<ObjectPageSection subSections="{dataCoursesDetail>/ui5cnLearningPath/0/pathIntermediate}" title="Intermediate">
+			<ObjectPageSection>
 				<subSections>
-					<ObjectPageSubSection title="{dataCoursesDetail>name}" mode="Expanded" id="Section2">
-								<m:VBox class="sapUiSmallMargin">
-									<f:SimpleForm minWidth="1024" maxContainerCols="2" editable="false" layout="ResponsiveGridLayout" title="Address" labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4" columnsL="1" columnsM="1">
-										<f:content>
-											<m:Text text="{dataCoursesDetail>name}"/>
-										</f:content>
-									</f:SimpleForm>
-								</m:VBox>
+					<ObjectPageSubSection title="{i18n>RequestUpdate}" mode="Expanded">
+							<m:VBox class="labelCourseUpdateReq">
+									<m:VBox>
+										<m:TextArea class="lableUpdateReq" value="{i18n>RequestUpdateText}"/>
+									</m:VBox>
+									<m:Button text="{i18n>contact}" press="onSuggestionPress"/>
+							</m:VBox>
 					</ObjectPageSubSection>
 				</subSections>
 			</ObjectPageSection>
