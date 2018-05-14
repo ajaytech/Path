@@ -2,15 +2,15 @@
 	"ui5cnLearningPath": [
 
 		{
-			"Title": "Project CORE",
+			"Title": "Project CORE - All in One",
 			"SubTitle": "Learn Hands-on by Building Your Own System on Big Data, Spark, Machine Learning, SAPUI5, Angular4, D3JS, SAP® HANA®",
 			"Recommendation Rating": 4.5,
-			"Type":"projectCourse",
-			"Delivery":"onGoing",
+			"Type": "projectCourse",
+			"Delivery": "onGoing",
 			"pathBasic": [{
 				"snum": 1,
 				"name": "Project CORE Kick-Off and Week 0",
-				"Desc": "Desc-Course Description: Project CORE is a hands-on course on End to End project development and run, which will give you all necessary insights on how to go from ideation to design to development to deployment to delivery.You have experienced the on-demand content on our platform and many other platforms but for the first time, you will experience live project development with us.Project CORE is a 7-week project development where you will learn hands-on.\n✔Learn WHAT is Project CORE\n✔Learn HOW Project CORE up skills the developer in you\n✔ Learn WHY we use this Technology Stack for Project CORE\n✔A Basic UI of the App with Angular 4 and D3JS which will be part of this Project.\n✔While having an experience in more than just one technology gives you an edge, experience in trendiest of them gets you in demand. Presenting Project CORE, with the focus on modularization, the current Industry Standard, it helps you learn the most trending technologies(Angular4, D3JS, REST API, Python, Machine Learning, SPARK, HADOOP, SAP HANA and SAPUI5) individually as well as together while keeping different tech components independent of each other.\n",
+				"Desc": "Description: Project CORE is a hands-on course on End to End project development and run, which will give you all necessary insights on how to go from ideation to design to development to deployment to delivery.You have experienced the on-demand content on our platform and many other platforms but for the first time, you will experience live project development with us. Project CORE is a 7-week project development where you will learn hands-on.\n✔WHAT is Project C.O.R.E.\n✔HOW Project C.O.R.E. up skills the developer in you\n✔WHY we use this Technology Stack for Project C.O.R.E.\n✔A Basic UI of the App with Angular 4 and D3JS which will be part of this Project.\nWhile having an experience in more than just one technology gives you an edge, experience in trendiest of them gets you in demand. Presenting Project C.O.R.E., with the focus on modularization, the current Industry Standard, it helps you learn the most trending technologies(Angular4, D3JS, REST API, Python, Machine Learning, SPARK, HADOOP, SAP HANA and SAPUI5) individually as well as together while keeping different tech components independent of each other.Project CORE is a hands-on course on End to End project development and run, which will give you all necessary insights on how to go from ideation to design to development to deployment to delivery.You have experienced the on-demand content on our platform and many other platforms but for the first time, you will experience live project development with us.Project CORE is a 7-week project development where you will learn hands-on.\n✔Learn WHAT is Project C.O.R.E.\n✔Learn HOW Project C.O.R.E. up skills the developer in you\n✔ Learn WHY we use this Technology Stack for Project C.O.R.E.\n✔A Basic UI of the App with Angular 4 and D3JS which will be part of this Project.\n✔While having an experience in more than just one technology gives you an edge, experience in trendiest of them gets you in demand. Presenting Project C.O.R.E., with the focus on modularization, the current Industry Standard, it helps you learn the most trending technologies(Angular4, D3JS, REST API, Python, Machine Learning, SPARK, HADOOP, SAP HANA and SAPUI5) individually as well as together while keeping different tech components independent of each other.Project CORE is a hands-on course on End to End project development and run, which will give you all necessary insights on how to go from ideation to design to development to deployment to delivery.You have experienced the on-demand content on our platform and many other platforms but for the first time, you will experience live project development with us.Project CORE is a 7-week project development where you will learn hands-on.\n✔Learn WHAT is Project C.O.R.E.\n✔Learn HOW Project C.O.R.E. up skills the developer in you\n✔ Learn WHY we use this Technology Stack for Project C.O.R.E.\n✔A Basic UI of the App with Angular 4 and D3JS which will be part of this Project.\n✔While having an experience in more than just one technology gives you an edge, experience in trendiest of them gets you in demand. Presenting Project C.O.R.E., with the focus on modularization, the current Industry Standard, it helps you learn the most trending technologies(Angular4, D3JS, REST API, Python, Machine Learning, SPARK, HADOOP, SAP HANA and SAPUI5) individually as well as together while keeping different tech components independent of each other.\n",
 				"Level": "Beginner",
 				"link": "https://www.ui5cn.com/courses/project-core#collapsed1",
 				"timeofCourseinHrs": 5,
@@ -41,7 +41,7 @@
 			}, {
 				"snum": 2,
 				"name": "Week 1, 2 and 3: Customer Workshop and Design Thinking",
-				"Desc": "Desc - In this course, you will get a detail level understanding of what is Design Thinking, how to use it in your own Customer Workshop.\nThe course has 2 major components that contain different approaches to Design Thinking principle:\n✔E-Commerce End:\nIt covers a detailed analysis of non-SAP customer requirements followed by mapping of those requirements to User Experience and finally the creation of UI wireframe that follows Material Design Guidelines.\n✔ERP End:\nIt covers a detailed analysis of SAP customer requirements which is again mapped into User Experience and finally the creation of UI wireframe that follows Fiori Design Guidelines.\nThroughout the course, you will gain an experience of \n✔How the User Requirements are collected or negotiated upon based on feasibility.\n✔What are the steps to keep in mind while translating those requirements into UI components?\n✔How to maintain the UX while designing the UI.\n✔Material Design and Fiori Design Guidelines.\n",
+				"Desc": "In this course, you will get a detail level understanding of what is Design Thinking, how to use it in your own Customer Workshop.\nThe course has 2 major components that contain different approaches to Design Thinking Principle:\n✔E-Commerce End:\nIt covers a detailed analysis of Non-SAP customer requirements followed by mapping of those requirements to User Experience and finally the creation of UI wire frame that follows Material Design Guidelines.\n✔ERP End:\nIt covers a detailed analysis of SAP customer requirements which is again mapped into User Experience and finally the creation of UI wire frame that follows Fiori Design Guidelines.\nThroughout the course, you will gain an experience of \n✔How the User Requirements are collected or negotiated upon based on feasibility.\n✔What are the steps to keep in mind while translating those requirements into UI components?\n✔How to maintain the UX while designing the UI.\n✔Material Design and Fiori Design Guidelines.\n",
 				"Level": "Intermediate",
 				"link": "https://www.ui5cn.com/courses/project-core#collapsed5",
 				"timeofCourseinHrs": 5,
@@ -58,7 +58,7 @@
 				],
 				"Topics Covered": [
 					"Design Thinking",
-					"Ecommerce Side UX Discussion",
+					"E-commerce Side UX Discussion",
 					"MRP in ERP",
 					"Architecture MRP and Our Implementation",
 					"UI wireframing",
@@ -73,11 +73,11 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/077/9741498653519.small.jpg"
 				}]
 			}, {
-				"snum": 4,
+				"snum": 3,
 				"name": "Week 4 - Architecture, Operations and Data",
 				"Desc": "Desc - Project CORE - Architecture, Operation, and Data. This section we will continue from the previous section,  where we finalized UI and UX with Design Thinking.\nHere we will look into what Data we require to start the development, for that we will look closely into features, what operations they result into and Architecture which makes it happen. We will look closely into how the Google Cloud Platform will host our Spark, Hadoop with Python Environment and Architecture of our ERP with SAP® HANA® platform running on Google Cloud Platform on Single Node Architecture.\n",
 				"Level": "Intermediate",
-				"link": "https://www.ui5cn.com/courses/project-core#collapsed8",
+				"link": "https://www.ui5cn.com/courses/project-core#collapsed9",
 				"timeofCourseinHrs": 2,
 				"timetoComplete": 3,
 				"imageURL": "./img/Migration.jpg",
@@ -107,7 +107,7 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 5,
+				"snum": 4,
 				"name": "Week 5 - Installing SAP® HANA® on GCP, MRP and Setup Development Environment",
 				"Desc": "Desc - Project CORE Week 5 is live and it is about Installing SAP® HANA® on GCP, MRP Steps, Data and Setting up Development Environment. In the previous section, we have discussed Architecture, Operation, and Data from E-Commerce side with you. This week we are coming up with Project CORE Development Environment and Data from SAP® HANA® ERP – PART 1.\nIn this section, we will deploy our own instance of SAP HANA system in Google® Cloud Platform for free in 5 Simple Steps. We will be instantiating HANA® XS 2.0 SP02.  There will be more practical and less theoretical content compared to other sections. So let’s get started on installing our own HANA, linking it to the development environment and getting the data from ERP side.\nPROJECT CORE gives you maximum flexibility to learn at your own convenience and provides you with an engaging and effective learning experience with new and cutting-edge technologies.\n",
 				"Level": "Intermediate",
@@ -137,7 +137,7 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 6,
+				"snum": 5,
 				"name": "Sprint 1 - Material Management and Material Requirement Planning Table Data Load",
 				"Desc": "Project CORE Sprint 1 is all about Creating Data Tables, Loading Master Data, Authorization and Alteration With SAP® HANA®. \nIn this section we will get into the details of how to create Master Data tables in SAP® HANA®.  \nWe will also gain experience on fixing real life issues on String mismatch, Date mismatch and many more which we face very frequently in practical projects with our clients in job. \n So learn simple and get success with UI5CN PROJECT CORE.",
 				"Level": "Intermediate",
@@ -167,7 +167,7 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 7,
+				"snum": 6,
 				"name": "Sprint 2 - Prerequisite : Learn Python Overnight",
 				"Desc": "In this section of Project CORE, You will Learn:\n✔Basic fundamentals of Python programming language.\n✔Learn what are the syntax and basic functionality to work on projects.\n✔Downloading all the packages with Anaconda installation.\n✔Get access to python out of the box and Jupyter Notebook.\n✔How to work on variables and operators and explore on print functionality.\n✔Learn the dictionary type in python like List, Tupples, and Sets.\n✔Create your own user define Functions and use Classes.\n",
 				"Level": "Beginner",
@@ -194,7 +194,7 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 8,
+				"snum": 7,
 				"name": "Sprint 2 - E-Commerce Data Acquisition and Preparation",
 				"Desc": "Desc: In this Week of Project CORE, the exciting part of E-commerce section begins with Machine Learning Collaborative Filtering and Recommendation Engine, also Parsing of Big Data Files with Python for that purpose:\n✔We will work with the Large Data file and parse with Python and understand Recommendation System in details which uses Collaborative Filtering technique of Unsupervised Machine Learning.\n✔We will encounter real-world challenges on Data Parsing and solve all of these issues one-by-one and explain why as well, with how.\n✔By the end of this section, you will have the formatted files which will form the Machine Learning Model with Spark MLib Library for Sprint 3 and 4.\nDetails:\n✔Acquire Data For E-Commerce End.\n✔Learn Basics of Collaborative Filtering for Recommendation System a Popular Unsupervised Learning Technique.\n✔Learn Data Formatting we need for the final data for Recommendation Engine Model Building.\n✔How to operate on files size about 1 GB or More for Parsing.\n✔How to solve missing data issues and more.\n",
 				"Level": "Intermediate",
@@ -227,7 +227,7 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 9,
+				"snum": 8,
 				"name": "Sprint 3 - E-Commerce Data Load and Operation Setting Up Hadoop and Spark",
 				"Desc": "Desc: In This Week of Project CORE: \n✔we focused on Big Data and open source solutions around that.\n✔We require these tools for our E-commerce end of Project CORE, data storage and computation.\n✔We will explore Hadoop one of the prominent Big Data solution.\n✔We will look Why part and How part of it and its ecosystem, its Architecture and basic inner working and will also spin our first Hadoop under 2 min in Google Cloud.\nMore About Project CORE:\nThe main purpose of Project CORE is to expose learner on the tools and techniques and inner working of technologies, which are: \nSAP® HANA®\n✔ SAPUI5\n✔Angular4\n✔D3JS\n✔Python with Spark on top of Hadoop\n✔Machine Learning with Spark\n✔Integration of the entire stack with REST API\nWhile working on this app, you will face the same challenges which you will face in your job where you will always have less time and by overcoming those challenges you will gain real project experience.",
 				"Level": "Advanced",
@@ -254,8 +254,8 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 10,
-				"name": "Sprint 4 - Prerequisite : Machine Learning - Upcoming",
+				"snum": 9,
+				"name": "Sprint 4.1 - Prerequisite : Machine Learning",
 				"Desc": "\n✔A firm base on concepts involved in the Machine Learning\n✔Types of Machine Learning Algorithm\n✔Types of Problem Which can be Solved With Machine Learning\n✔How to Judge Machine Learning Algorithm\n✔Start With Classic Naive Bayes to Create Expert System\n✔Proof and Maths Behind Bayes Algorithm\n✔How Expert System Learns and an Example of it.",
 				"Level": "Intermediate",
 				"link": "https://www.ui5cn.com/courses/project-core#collapsed16",
@@ -284,24 +284,28 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 11,
-				"name": "Sprint 4 - Implementing Machine Learning on E-Commerce Data",
-				"Desc": "\n✔ML Library of Spark\n✔ALS module of ML Library",
+				"snum": 10,
+				"name": "Sprint 4.2 - Implementing Machine Learning on E-Commerce Data",
+				"Desc": "✔Understanding Maths aspect of ML though little challenging initially but essential in understanding how an ML algorithm learns.\n ✔ We are also providing you handbook for this sprint to perform all steps and exercises so that you can create your own machine learning model, with Spark, Hadoop and GCP(you can use AWS as well).\n✔ In this Sprint We hope to deliver the best machine learning course available in the world. And your feedback and suggest matter to us a lot.\n✔ML Library of Spark\n✔ALS module of ML LibraryWe have covered the maths properly with calculus which you might not find in a lot of machine learning courses.",
 				"Level": "UpComing",
 				"link": "https://www.ui5cn.com/courses/project-core#collapsed16",
-				"timeofCourseinHrs": 0,
-				"timetoComplete": 0,
-				"imageURL": "./img/upcoming.jpg",
-				"User Rating": 0,
-				"UI5CN Internal Critic Rating": 0,
-				"Last Updated": "Upcoming",
+				"timeofCourseinHrs": 3,
+				"timetoComplete": 7.5,
+				"imageURL": "https://s3.amazonaws.com/thinkific/file_uploads/17035/images/eeb/ddf/9c9/machine_learning_sprint_2.jpg",
+				"User Rating": 4,
+				"UI5CN Internal Critic Rating": 5,
+				"Last Updated": "24/04/2018",
 				"Next Update Scheduled": "Not Scheduled",
 				"Prerequisite": [
-					"NA"
+					"Project CORE Previous Sprints"
 				],
 				"Topics Covered": [
-					"ML Library of Spark",
-					"ALS module of ML Library"
+					"Machine Learning Maths",
+					"Convergence and Error Minimisation",
+					"Proof of Maths Behind Machine Learning",
+					"ML Library of Spark Implementation",
+					"ALS module of ML Library Implementation"
+
 				],
 				"Instructor": [{
 					"name": "Ajay Nayak",
@@ -311,7 +315,7 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/077/9741498653519.small.jpg"
 				}]
 			}, {
-				"snum": 12,
+				"snum": 11,
 				"name": "Sprint 5 - Exposing data as services with Python Server - Upcoming",
 				"Desc": "\n✔REST API with Flask Web Framework\n✔WSGI Web Server with CherryPy\n✔Adding Spark's ML Model with Web Server\n",
 				"Level": "UpComing",
@@ -336,7 +340,7 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 13,
+				"snum": 12,
 				"name": "Sprint 6 - Migrating development to Google Cloud Platform - Upcoming",
 				"Desc": "\n✔Setting up Spark on Cloud\n✔Hosting the web server on GCP\n",
 				"Level": "UpComing",
@@ -361,7 +365,7 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 14,
+				"snum": 13,
 				"name": "Sprint 7 - Developing UI for E-Commerce End with Angular4 - Upcoming",
 				"Desc": "\n✔Dependencies\n✔Angular CLI & First App\n✔App building Components\n✔Services, HTTP Modules & Observables\n✔Production Build & Hosting",
 				"Level": "UpComing",
@@ -389,7 +393,7 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 15,
+				"snum": 14,
 				"name": "Sprint 8 - Visualization in UI with Angular4 and D3JS - Upcoming",
 				"Desc": "\n✔Integrating D3JS with Angular\n",
 				"Level": "UpComing",
@@ -414,7 +418,7 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 16,
+				"snum": 15,
 				"name": "Sprint 9 - Improving App with Material Design Guidelines - Upcoming",
 				"Desc": "\n✔Restyling the UI with Material Module\n",
 				"Level": "UpComing",
@@ -437,7 +441,7 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 17,
+				"snum": 16,
 				"name": "Sprint 10 - SAPUI5 Development - Upcoming",
 				"Desc": "\n✔SAPUI5 UI Components\n✔UI Architecture\n✔UI Development\n",
 				"Level": "UpComing",
@@ -462,7 +466,7 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 18,
+				"snum": 17,
 				"name": "Sprint 11 - SAP HANA MDM - Upcoming",
 				"Desc": "\n✔HANA Development Datan\n✔HANA Development Administration\n✔HANA Development Views and Services Design\n",
 				"Level": "UpComing",
@@ -487,7 +491,7 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 19,
+				"snum": 18,
 				"name": "Sprint 12 - SAP HANA Development - Upcoming",
 				"Desc": "\n✔HANA Views Development\n✔HANA Procedures Development\n✔HANA Services Development\n✔HANA XSOData Service Development\n",
 				"Level": "UpComing",
@@ -514,7 +518,7 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 20,
+				"snum": 19,
 				"name": "Sprint 13 - Final Integration of E-Commerce End and ERP End - Upcoming",
 				"Desc": "\n✔Integration of E-Commerce End & ERP End\n✔Testing the entire app with test cases and boundary conditions",
 				"Level": "UpComing",
@@ -538,7 +542,7 @@
 					"Image": "https://s3.amazonaws.com/thinkific/instructors/000/019/7561498570542.small.jpg"
 				}]
 			}, {
-				"snum": 21,
+				"snum": 20,
 				"name": "Sprint 14 - Integration & Testing - Upcoming",
 				"Desc": "\n✔Integration & Testing",
 				"Level": "UpComing",
@@ -567,8 +571,8 @@
 			"Title": "SAPUI5 End-to-End Consultant",
 			"SubTitle": "Becoming UI5 End-to-End Consultant From Basics (ABAP Developer Mostly)",
 			"Recommendation Rating": 4.5,
-			"Type":"bundleCourse",
-			"Delivery":"onGoingUpdate",
+			"Type": "bundleCourse",
+			"Delivery": "onGoingUpdate",
 			"pathBasic": [{
 				"snum": 1,
 				"name": "SAP® UI5 and Fiori® Getting Started",
@@ -578,10 +582,10 @@
 				"timeofCourseinHrs": 3,
 				"timetoComplete": 5,
 				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
-				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 2.5,
-				"Last Updated": "20/05/2016",
-				"Next Update Scheduled": "20/03/2018",
+				"User Rating": 4.5,
+				"UI5CN Internal Critic Rating": 4.2,
+				"Last Updated": "10/04/2018",
+				"Next Update Scheduled": "Not Scheduled",
 				"Prerequisite": [
 					"HTML5",
 					"Basic Web Programming",
@@ -607,7 +611,7 @@
 				"User Rating": 5,
 				"UI5CN Internal Critic Rating": 4,
 				"Last Updated": "20/07/2016",
-				"Next Update Scheduled": "Not Scheduled Yet",
+				"Next Update Scheduled": "25/04/2018",
 				"Prerequisite": [
 					"HTML5",
 					"Basic Web Programming",
@@ -675,7 +679,7 @@
 				"User Rating": 5,
 				"UI5CN Internal Critic Rating": 5,
 				"Last Updated": "20/10/2016",
-				"Next Update Scheduled": "Not Scheduled Yet",
+				"Next Update Scheduled": "25/04/2018",
 				"Prerequisite": [
 					"SAP® Basic System Operation",
 					"ABAP® Basics",
@@ -702,11 +706,11 @@
 				"link": "https://www.ui5cn.com/courses/sap-web-ide-professional-and-advanced-dev/",
 				"timeofCourseinHrs": 11,
 				"timetoComplete": 22,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/261/9401519920922.original.jpg",
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/261/9401522827254.original.jpg",
 				"User Rating": 5,
 				"UI5CN Internal Critic Rating": 5,
 				"Last Updated": "24/03/2018",
-				"Next Update Scheduled": "Not Scheduled Yet",
+				"Next Update Scheduled": "On-Going",
 				"Prerequisite": [
 					"SAP® Basic System Operation",
 					"ABAP® Basics",
@@ -732,8 +736,8 @@
 			"Title": "UI5 Front End Developer",
 			"Recommendation Rating": 4.5,
 			"SubTitle": "Becoming UI5 Developer and Designer From Basics (JS Developer Mostly)",
-			"Type":"bundleCourse",
-			"Delivery":"onGoingUpdate",
+			"Type": "bundleCourse",
+			"Delivery": "onGoingUpdate",
 			"pathBasic": [{
 				"snum": 1,
 				"name": "SAP® UI5 and Fiori® Getting Started",
@@ -744,9 +748,9 @@
 				"timetoComplete": 5,
 				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/030/3441490615393.original.jpg",
 				"User Rating": 4.1,
-				"UI5CN Internal Critic Rating": 2.5,
-				"Last Updated": "20/05/2016",
-				"Next Update Scheduled": "20/03/2018",
+				"UI5CN Internal Critic Rating": 4.5,
+				"Last Updated": "10/04/2018",
+				"Next Update Scheduled": "Not Scheduled Yet",
 				"Prerequisite": [
 					"HTML5",
 					"Basic Web Programming",
@@ -862,7 +866,7 @@
 				"link": "https://www.ui5cn.com/courses/sap-web-ide-professional-and-advanced-dev/",
 				"timeofCourseinHrs": 11,
 				"timetoComplete": 22,
-				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/261/9401519920922.original.jpg",
+				"imageURL": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/261/9401522827254.original.jpg",
 				"User Rating": 5,
 				"UI5CN Internal Critic Rating": 5,
 				"Last Updated": "24/03/2018",
@@ -892,8 +896,8 @@
 			"Title": "Data Viz Designer and Dev",
 			"Recommendation Rating": 3.5,
 			"SubTitle": "Consultant who Work With Data Analytics, Graphs, Designing Vizualization and Developing UI's",
-			"Type":"bundleCourse",
-			"Delivery":"",
+			"Type": "bundleCourse",
+			"Delivery": "",
 			"pathBasic": [{
 				"snum": 1,
 				"name": "Learn D3JS(v3) Hands-on And Simple Way",
@@ -979,8 +983,8 @@
 			"Title": "MEAN Stack End-to-End Developer",
 			"Recommendation Rating": 3,
 			"SubTitle": "Learn End-to-End App Development With Mongo DB(M), Express JS(E), Angular JS(A) and Node JS(N)",
-			"Type":"bundleCourse",
-			"Delivery":"",
+			"Type": "bundleCourse",
+			"Delivery": "",
 			"pathBasic": [{
 				"snum": 1,
 				"name": "Learn Basics of AngularJS in 59 minutes by building a Game App",
@@ -1097,8 +1101,8 @@
 			"Title": "Python End-to-End Developer",
 			"Recommendation Rating": 2,
 			"SubTitle": "Learn Python Basics, Advanced, Testing, WebApp, Stand Alone App Dev and Testing",
-			"Type":"bundleCourse",
-			"Delivery":"onGoingUpdate",
+			"Type": "bundleCourse",
+			"Delivery": "onGoingUpdate",
 			"pathBasic": [{
 				"snum": 1,
 				"name": "Learn Python Basics: Fun and Simple Way",
@@ -1216,8 +1220,8 @@
 			"Title": "IoT Engineer for PoC Dev",
 			"Recommendation Rating": 2,
 			"SubTitle": "Become IoT Engineer with Hardware Interfacing and Integration Skills",
-			"Type":"bundleCourse",
-			"Delivery":"",
+			"Type": "bundleCourse",
+			"Delivery": "",
 			"pathBasic": [{
 				"snum": 1,
 				"name": "Hack The Arduino®",
