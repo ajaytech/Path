@@ -3,6 +3,7 @@
 
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="google-site-verification" content="LZOjxgLv0ojYvz-V4MQJAyGtJPgGxYwgXGhVY5bKGxk" />
 		<meta charset="UTF-8">
 		<link rel="icon" type="image/png" href="img/ui5cn_logo_March18.png">
 		<title>UI5CN Path</title>
@@ -11,10 +12,11 @@
 <!--"https://openui5.hana.ondemand.com/"-->
 		<script id="sap-ui-bootstrap"
 		
-			src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+			src="./resources/sap-ui-core.js"
 			data-sap-ui-libs="sap.m"
 			data-sap-ui-theme="sap_bluecrystal"
 			data-sap-ui-compatVersion="edge"
+			data-sap-ui-preload="async"
 			data-sap-ui-resourceroots='{"ui5cnLearningPath": ""}'>
 		</script>
 
@@ -22,32 +24,92 @@
 
 		<script>
 			
-			sap.ui.getCore().attachInit(function () {
+		sap.ui.getCore().attachInit(function () {
 			sap.ui.require([
-				"sap/m/Shell",
 				"sap/ui/core/ComponentContainer"
-			], function (Shell, ComponentContainer) {
-
-				new Shell({
-					app: new ComponentContainer({
+			], function (ComponentContainer) {
+				new sap.ui.component({
 						height : "100%",
+						 async: true,
 						name : "ui5cnLearningPath"
-					})
-				}).placeAt("content");
+					}).then(function(ui5cnLearningPathComp) {
+                    			new ComponentContainer({
+                    				component: ui5cnLearningPathComp
+                    			}).placeAt("content");
+			            });
 			});
 		});
 		</script>
+		<script type='text/javascript'>
+		window.__lo_site_id = 85244;
+
+	(function() {
+		var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
+		wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+	  })();
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" type="text/javascript"></script>
+	<!--Start of Lazy Loading: M010-->
+
+<script>
+    $(function() {
+        $("img.imageCourse").lazyload({
+            event : "sporty"
+        });
+        $("div.sapUiRespGridSpanL12").lazyload({
+            event : "sporty"
+        });
+        
+    });
+    
+    $(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.imageCourse").trigger("sporty");
+        $("div.sapUiRespGridSpanL12").trigger("sporty");
+    }, 2000);
+});
+</script>
+<style>
+.animated-background {
+    -webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: placeHolderShimmer;
+	animation-name: placeHolderShimmer;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	background: #f6f7f8;
+	background: #eeeeee;
+	background: -webkit-gradient(linear, left top, right top, color-stop(8%, #eeeeee), color-stop(18%, #dddddd), color-stop(33%, #eeeeee));
+	background: -webkit-linear-gradient(left, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+	background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+	-webkit-background-size: 100% 100%;
+	background-size: 500px 220px;
+	height: 100%;
+	position: relative;
+}
+</style>
+<!--End of Lazy Loading M010-->
 	</head>
 
+
+
+ 
 	<body class="sapUiBody" id="content">
 		<div class="loader-wrapper" align="center">
-    		<span class="blob blob-1">UI5CN PATH</span>
-            <span class="loadText">Loading...</span>
-        </div>
+		     <span class="font-size: 5rem !important;">UI5CN PATH Loading...</span><br/>
+           <img src="./img/Ball-1s-200px.gif"/>
+           
+            </div>
        <div class="bar">Copyright - This App is Build With Open UI5 and Under Open Source Licence.<br/>SAP ,SAP NetWeaver,SAP HANA, SAP Fiori are registered trademarks of SAP SE in Germany and in several other countries.<br/></div>
 	
-	<a target="_blank" href="https://github.com/ajaytech/Path/"><img style="position: absolute; top: -14px; right: -14px; z-index: 1000;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
-	
+	<!--a target="_blank" href="https://github.com/ajaytech/Path/"><img style="position: absolute; top: -14px; right: -14px; z-index: 1000;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a-->
+	<!-- Place this tag where you want the button to render. -->
+	<a target="_blank" href="https://github.com/ajaytech/Path/" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#f7c249; z-index: 1000;color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 	</body>
 <script src="//static.leadpages.net/leadboxes/current/embed.js" async defer></script> <a style="visibility:hidden;" href="" id="ui5cnContact" data-leadbox-popup="1448c57f3f72a2:14f49e332f46dc" data-leadbox-domain="ui5-community-network.lpages.co">Click here to subscribe</a> 
 
